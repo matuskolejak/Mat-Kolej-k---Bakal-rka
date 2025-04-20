@@ -1,0 +1,3009 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Wolfram 14.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       154,          7]
+NotebookDataLength[    110619,       3001]
+NotebookOptionsPosition[     98333,       2858]
+NotebookOutlinePosition[     98725,       2874]
+CellTagsIndexPosition[     98682,       2871]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"StvorecJednoduchaTransformacia", "[", "]"}]], "Input",
+ CellChangeTimes->{{3.953944386569118*^9, 3.953944392932972*^9}, 
+   3.9539455342094183`*^9},
+ CellLabel->
+  "In[7238]:=",ExpressionUUID->"8aeedb4b-33b2-4c88-a636-a3ccf1ab026e"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ StyleBox["\<\"JEDNODUCH\[CapitalAAcute] GEOMETRICK\[CapitalAAcute] TRANSFORM\
+\[CapitalAAcute]CIA \[CapitalSHacek]TVORCA\"\>",
+  StripOnInput->False,
+  FontSize->24,
+  FontWeight->Bold]], "Print",
+ CellChangeTimes->{3.953945536497398*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"4152c286-f15e-4601-9497-e1e509faca2a"],
+
+Cell[BoxData[
+ StyleBox["\<\"==========================================\"\>",
+  StripOnInput->False,
+  FontWeight->Bold]], "Print",
+ CellChangeTimes->{3.953945536498055*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"9fddad92-3a1d-44b9-96a7-6da1a3dfc87d"],
+
+Cell[BoxData[
+ StyleBox["\<\"\\nPO\[CapitalCHacek]IATO\[CapitalCHacek]N\[CapitalYAcute] \
+\[CapitalSHacek]TVOREC:\"\>",
+  StripOnInput->False,
+  FontSize->16,
+  FontWeight->Bold]], "Print",
+ CellChangeTimes->{3.953945536512299*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"53abff7b-0497-45c3-b8e4-ce9e7242c1b5"],
+
+Cell[BoxData["\<\"Vrcholy \[SHacek]tvorca ABCD:\"\>"], "Print",
+ CellChangeTimes->{3.953945536512926*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"d0b6f30c-1012-47db-8650-c41ef01f2101"],
+
+Cell[BoxData[
+ TagBox[
+  RowBox[{"(", "\[NoBreak]", GridBox[{
+     {
+      StyleBox[
+       RowBox[{"-", "1"}],
+       StripOnInput->False,
+       LineColor->RGBColor[0, 0, 1],
+       FrontFaceColor->RGBColor[0, 0, 1],
+       BackFaceColor->RGBColor[0, 0, 1],
+       GraphicsColor->RGBColor[0, 0, 1],
+       FontColor->RGBColor[0, 0, 1]], 
+      StyleBox[
+       RowBox[{"-", "6"}],
+       StripOnInput->False,
+       LineColor->RGBColor[0, 0, 1],
+       FrontFaceColor->RGBColor[0, 0, 1],
+       BackFaceColor->RGBColor[0, 0, 1],
+       GraphicsColor->RGBColor[0, 0, 1],
+       FontColor->RGBColor[0, 0, 1]]},
+     {
+      StyleBox["3",
+       StripOnInput->False,
+       LineColor->RGBColor[0, 0, 1],
+       FrontFaceColor->RGBColor[0, 0, 1],
+       BackFaceColor->RGBColor[0, 0, 1],
+       GraphicsColor->RGBColor[0, 0, 1],
+       FontColor->RGBColor[0, 0, 1]], 
+      StyleBox[
+       RowBox[{"-", "6"}],
+       StripOnInput->False,
+       LineColor->RGBColor[0, 0, 1],
+       FrontFaceColor->RGBColor[0, 0, 1],
+       BackFaceColor->RGBColor[0, 0, 1],
+       GraphicsColor->RGBColor[0, 0, 1],
+       FontColor->RGBColor[0, 0, 1]]},
+     {
+      StyleBox["3",
+       StripOnInput->False,
+       LineColor->RGBColor[0, 0, 1],
+       FrontFaceColor->RGBColor[0, 0, 1],
+       BackFaceColor->RGBColor[0, 0, 1],
+       GraphicsColor->RGBColor[0, 0, 1],
+       FontColor->RGBColor[0, 0, 1]], 
+      StyleBox[
+       RowBox[{"-", "2"}],
+       StripOnInput->False,
+       LineColor->RGBColor[0, 0, 1],
+       FrontFaceColor->RGBColor[0, 0, 1],
+       BackFaceColor->RGBColor[0, 0, 1],
+       GraphicsColor->RGBColor[0, 0, 1],
+       FontColor->RGBColor[0, 0, 1]]},
+     {
+      StyleBox[
+       RowBox[{"-", "1"}],
+       StripOnInput->False,
+       LineColor->RGBColor[0, 0, 1],
+       FrontFaceColor->RGBColor[0, 0, 1],
+       BackFaceColor->RGBColor[0, 0, 1],
+       GraphicsColor->RGBColor[0, 0, 1],
+       FontColor->RGBColor[0, 0, 1]], 
+      StyleBox[
+       RowBox[{"-", "2"}],
+       StripOnInput->False,
+       LineColor->RGBColor[0, 0, 1],
+       FrontFaceColor->RGBColor[0, 0, 1],
+       BackFaceColor->RGBColor[0, 0, 1],
+       GraphicsColor->RGBColor[0, 0, 1],
+       FontColor->RGBColor[0, 0, 1]]}
+    },
+    GridBoxAlignment->{"Columns" -> {{Center}}, "Rows" -> {{Baseline}}},
+    GridBoxSpacings->{"Columns" -> {
+        Offset[0.27999999999999997`], {
+         Offset[0.7]}, 
+        Offset[0.27999999999999997`]}, "Rows" -> {
+        Offset[0.2], {
+         Offset[0.4]}, 
+        Offset[0.2]}}], "\[NoBreak]", ")"}],
+  Function[BoxForm`e$, 
+   MatrixForm[BoxForm`e$]]]], "Print",
+ CellChangeTimes->{3.953945536513386*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"9dcea388-c40a-488c-8ea1-96072e7e977e"],
+
+Cell[BoxData[
+ StyleBox["\<\"Vlastnosti \[SHacek]tvorca:\"\>",
+  StripOnInput->False,
+  FontWeight->Bold]], "Print",
+ CellChangeTimes->{3.953945536513751*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"49d2516c-01a3-49b6-8376-519ef0caca24"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Obsah: \"\>", "\[InvisibleSpace]", 
+   StyleBox["16",
+    StripOnInput->False,
+    LineColor->RGBColor[0, 0, 1],
+    FrontFaceColor->RGBColor[0, 0, 1],
+    BackFaceColor->RGBColor[0, 0, 1],
+    GraphicsColor->RGBColor[0, 0, 1],
+    FontColor->RGBColor[0, 0, 1]]}],
+  SequenceForm["Obsah: ", 
+   Style[16, 
+    RGBColor[0, 0, 1]]],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9539455365140953`*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"2ec22eba-f460-4545-87a1-909f30cce360"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Obvod: \"\>", "\[InvisibleSpace]", 
+   StyleBox["16",
+    StripOnInput->False,
+    LineColor->RGBColor[0, 0, 1],
+    FrontFaceColor->RGBColor[0, 0, 1],
+    BackFaceColor->RGBColor[0, 0, 1],
+    GraphicsColor->RGBColor[0, 0, 1],
+    FontColor->RGBColor[0, 0, 1]]}],
+  SequenceForm["Obvod: ", 
+   Style[16, 
+    RGBColor[0, 0, 1]]],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.953945536514429*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"07aab4c5-1d39-40db-a005-c17e20f25295"],
+
+Cell[BoxData[
+ StyleBox["\<\"\\nTRANSFORM\[CapitalAAcute]CIA: Posun\"\>",
+  StripOnInput->False,
+  FontSize->16,
+  FontWeight->Bold]], "Print",
+ CellChangeTimes->{3.953945537747312*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"fcd7c8ee-dddd-4f72-aa83-4e6d4b2a31b2"],
+
+Cell[BoxData[
+ StyleBox["\<\"GEOMETRICK\[CapitalEAcute] TRANSFORM\[CapitalAAcute]CIE \
+\[CapitalSHacek]TVORCA - POSUN\"\>",
+  StripOnInput->False,
+  FontSize->16,
+  FontWeight->Bold]], "Print",
+ CellChangeTimes->{3.95394553774855*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"cbb1c1ec-9ad5-42c9-8552-50dc0466bdc2"],
+
+Cell[BoxData[
+ StyleBox["\<\"========================================\"\>",
+  StripOnInput->False,
+  FontWeight->Bold]], "Print",
+ CellChangeTimes->{3.953945537749004*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"66a87ca2-9e67-4664-b0d2-5a16f6625ef0"],
+
+Cell[BoxData[
+ StyleBox["\<\"\\nZADANIE:\"\>",
+  StripOnInput->False,
+  FontSize->14,
+  FontWeight->Bold]], "Print",
+ CellChangeTimes->{3.953945537749413*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"020266e0-e333-46a3-8a21-d5f27369c0d5"],
+
+Cell[BoxData["\<\"Majme \[SHacek]tvorec ABCD s vrcholmi:\"\>"], "Print",
+ CellChangeTimes->{3.953945537749817*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"e88a6e75-bb09-406f-97d8-68d32700a0c8"],
+
+Cell[BoxData[
+ TagBox[
+  RowBox[{"(", "\[NoBreak]", GridBox[{
+     {
+      StyleBox[
+       RowBox[{"-", "1"}],
+       StripOnInput->False,
+       LineColor->RGBColor[0, 0, 1],
+       FrontFaceColor->RGBColor[0, 0, 1],
+       BackFaceColor->RGBColor[0, 0, 1],
+       GraphicsColor->RGBColor[0, 0, 1],
+       FontColor->RGBColor[0, 0, 1]], 
+      StyleBox[
+       RowBox[{"-", "6"}],
+       StripOnInput->False,
+       LineColor->RGBColor[0, 0, 1],
+       FrontFaceColor->RGBColor[0, 0, 1],
+       BackFaceColor->RGBColor[0, 0, 1],
+       GraphicsColor->RGBColor[0, 0, 1],
+       FontColor->RGBColor[0, 0, 1]]},
+     {
+      StyleBox["3",
+       StripOnInput->False,
+       LineColor->RGBColor[0, 0, 1],
+       FrontFaceColor->RGBColor[0, 0, 1],
+       BackFaceColor->RGBColor[0, 0, 1],
+       GraphicsColor->RGBColor[0, 0, 1],
+       FontColor->RGBColor[0, 0, 1]], 
+      StyleBox[
+       RowBox[{"-", "6"}],
+       StripOnInput->False,
+       LineColor->RGBColor[0, 0, 1],
+       FrontFaceColor->RGBColor[0, 0, 1],
+       BackFaceColor->RGBColor[0, 0, 1],
+       GraphicsColor->RGBColor[0, 0, 1],
+       FontColor->RGBColor[0, 0, 1]]},
+     {
+      StyleBox["3",
+       StripOnInput->False,
+       LineColor->RGBColor[0, 0, 1],
+       FrontFaceColor->RGBColor[0, 0, 1],
+       BackFaceColor->RGBColor[0, 0, 1],
+       GraphicsColor->RGBColor[0, 0, 1],
+       FontColor->RGBColor[0, 0, 1]], 
+      StyleBox[
+       RowBox[{"-", "2"}],
+       StripOnInput->False,
+       LineColor->RGBColor[0, 0, 1],
+       FrontFaceColor->RGBColor[0, 0, 1],
+       BackFaceColor->RGBColor[0, 0, 1],
+       GraphicsColor->RGBColor[0, 0, 1],
+       FontColor->RGBColor[0, 0, 1]]},
+     {
+      StyleBox[
+       RowBox[{"-", "1"}],
+       StripOnInput->False,
+       LineColor->RGBColor[0, 0, 1],
+       FrontFaceColor->RGBColor[0, 0, 1],
+       BackFaceColor->RGBColor[0, 0, 1],
+       GraphicsColor->RGBColor[0, 0, 1],
+       FontColor->RGBColor[0, 0, 1]], 
+      StyleBox[
+       RowBox[{"-", "2"}],
+       StripOnInput->False,
+       LineColor->RGBColor[0, 0, 1],
+       FrontFaceColor->RGBColor[0, 0, 1],
+       BackFaceColor->RGBColor[0, 0, 1],
+       GraphicsColor->RGBColor[0, 0, 1],
+       FontColor->RGBColor[0, 0, 1]]}
+    },
+    GridBoxAlignment->{"Columns" -> {{Center}}, "Rows" -> {{Baseline}}},
+    GridBoxSpacings->{"Columns" -> {
+        Offset[0.27999999999999997`], {
+         Offset[0.7]}, 
+        Offset[0.27999999999999997`]}, "Rows" -> {
+        Offset[0.2], {
+         Offset[0.4]}, 
+        Offset[0.2]}}], "\[NoBreak]", ")"}],
+  Function[BoxForm`e$, 
+   MatrixForm[BoxForm`e$]]]], "Print",
+ CellChangeTimes->{3.953945537750492*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"434263fb-884b-44a5-9846-e2d88e227514"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"\\nVykonajte posun \[SHacek]tvorca v 2D priestore pomocou \
+vektora posunu: \[CapitalDelta] = [\"\>", "\[InvisibleSpace]", 
+   StyleBox[
+    RowBox[{"-", "3"}],
+    StripOnInput->False,
+    LineColor->RGBColor[1, 0, 0],
+    FrontFaceColor->RGBColor[1, 0, 0],
+    BackFaceColor->RGBColor[1, 0, 0],
+    GraphicsColor->RGBColor[1, 0, 0],
+    FontColor->RGBColor[1, 0, 0]], "\[InvisibleSpace]", "\<\", \"\>", 
+   "\[InvisibleSpace]", 
+   StyleBox["5",
+    StripOnInput->False,
+    LineColor->RGBColor[1, 0, 0],
+    FrontFaceColor->RGBColor[1, 0, 0],
+    BackFaceColor->RGBColor[1, 0, 0],
+    GraphicsColor->RGBColor[1, 0, 0],
+    FontColor->RGBColor[1, 0, 0]], "\[InvisibleSpace]", "\<\"]\"\>"}],
+  SequenceForm[
+  "\nVykonajte posun \[SHacek]tvorca v 2D priestore pomocou vektora posunu: \
+\[CapitalDelta] = [", 
+   Style[-3, 
+    RGBColor[1, 0, 0]], ", ", 
+   Style[5, 
+    RGBColor[1, 0, 0]], "]"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9539455377511587`*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"40be0db6-8c64-403f-91c0-604e78e83e09"],
+
+Cell[BoxData["\<\"\\nTransforma\[CHacek]n\[AAcute] matica posunu v homog\
+\[EAcute]nnych s\[UAcute]radniciach:\"\>"], "Print",
+ CellChangeTimes->{3.953945537751609*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"e46529a2-b6c9-4c7a-8c6e-1a2c228038e3"],
+
+Cell[BoxData[
+ TagBox[
+  RowBox[{"(", "\[NoBreak]", GridBox[{
+     {
+      StyleBox["1",
+       StripOnInput->False,
+       LineColor->RGBColor[1, 0, 0],
+       FrontFaceColor->RGBColor[1, 0, 0],
+       BackFaceColor->RGBColor[1, 0, 0],
+       GraphicsColor->RGBColor[1, 0, 0],
+       FontColor->RGBColor[1, 0, 0]], 
+      StyleBox["0",
+       StripOnInput->False,
+       LineColor->RGBColor[1, 0, 0],
+       FrontFaceColor->RGBColor[1, 0, 0],
+       BackFaceColor->RGBColor[1, 0, 0],
+       GraphicsColor->RGBColor[1, 0, 0],
+       FontColor->RGBColor[1, 0, 0]], 
+      StyleBox[
+       RowBox[{"-", "3"}],
+       StripOnInput->False,
+       LineColor->RGBColor[1, 0, 0],
+       FrontFaceColor->RGBColor[1, 0, 0],
+       BackFaceColor->RGBColor[1, 0, 0],
+       GraphicsColor->RGBColor[1, 0, 0],
+       FontColor->RGBColor[1, 0, 0]]},
+     {
+      StyleBox["0",
+       StripOnInput->False,
+       LineColor->RGBColor[1, 0, 0],
+       FrontFaceColor->RGBColor[1, 0, 0],
+       BackFaceColor->RGBColor[1, 0, 0],
+       GraphicsColor->RGBColor[1, 0, 0],
+       FontColor->RGBColor[1, 0, 0]], 
+      StyleBox["1",
+       StripOnInput->False,
+       LineColor->RGBColor[1, 0, 0],
+       FrontFaceColor->RGBColor[1, 0, 0],
+       BackFaceColor->RGBColor[1, 0, 0],
+       GraphicsColor->RGBColor[1, 0, 0],
+       FontColor->RGBColor[1, 0, 0]], 
+      StyleBox["5",
+       StripOnInput->False,
+       LineColor->RGBColor[1, 0, 0],
+       FrontFaceColor->RGBColor[1, 0, 0],
+       BackFaceColor->RGBColor[1, 0, 0],
+       GraphicsColor->RGBColor[1, 0, 0],
+       FontColor->RGBColor[1, 0, 0]]},
+     {
+      StyleBox["0",
+       StripOnInput->False,
+       LineColor->RGBColor[1, 0, 0],
+       FrontFaceColor->RGBColor[1, 0, 0],
+       BackFaceColor->RGBColor[1, 0, 0],
+       GraphicsColor->RGBColor[1, 0, 0],
+       FontColor->RGBColor[1, 0, 0]], 
+      StyleBox["0",
+       StripOnInput->False,
+       LineColor->RGBColor[1, 0, 0],
+       FrontFaceColor->RGBColor[1, 0, 0],
+       BackFaceColor->RGBColor[1, 0, 0],
+       GraphicsColor->RGBColor[1, 0, 0],
+       FontColor->RGBColor[1, 0, 0]], 
+      StyleBox["1",
+       StripOnInput->False,
+       LineColor->RGBColor[1, 0, 0],
+       FrontFaceColor->RGBColor[1, 0, 0],
+       BackFaceColor->RGBColor[1, 0, 0],
+       GraphicsColor->RGBColor[1, 0, 0],
+       FontColor->RGBColor[1, 0, 0]]}
+    },
+    GridBoxAlignment->{"Columns" -> {{Center}}, "Rows" -> {{Baseline}}},
+    GridBoxSpacings->{"Columns" -> {
+        Offset[0.27999999999999997`], {
+         Offset[0.7]}, 
+        Offset[0.27999999999999997`]}, "Rows" -> {
+        Offset[0.2], {
+         Offset[0.4]}, 
+        Offset[0.2]}}], "\[NoBreak]", ")"}],
+  Function[BoxForm`e$, 
+   MatrixForm[BoxForm`e$]]]], "Print",
+ CellChangeTimes->{3.953945537752112*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"84244937-a8b5-4bf9-bfe2-7e15ad0b3e94"],
+
+Cell[BoxData[
+ StyleBox["\<\"\\nPOSTUP:\"\>",
+  StripOnInput->False,
+  FontSize->14,
+  FontWeight->Bold]], "Print",
+ CellChangeTimes->{3.9539455377525578`*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"8011ddff-32b7-40c4-8947-521cfeb9fa7a"],
+
+Cell[BoxData["\<\"Pre v\[YAcute]po\[CHacek]et pou\[ZHacek]ijeme maticu posunu \
+v homog\[EAcute]nnych s\[UAcute]radniciach:\"\>"], "Print",
+ CellChangeTimes->{3.95394553775294*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"3477b0a8-bab6-40a9-b6bc-097e035fbce7"],
+
+Cell[BoxData[
+ StyleBox["\<\"Transforma\[CHacek]n\[AAcute] matica:\"\>",
+  StripOnInput->False,
+  FontWeight->Bold]], "Print",
+ CellChangeTimes->{3.953945537753326*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"38e8b24c-db86-4c18-b352-80ac68666f14"],
+
+Cell[BoxData[
+ TagBox[
+  RowBox[{"(", "\[NoBreak]", GridBox[{
+     {
+      StyleBox["1",
+       StripOnInput->False,
+       LineColor->RGBColor[1, 0, 0],
+       FrontFaceColor->RGBColor[1, 0, 0],
+       BackFaceColor->RGBColor[1, 0, 0],
+       GraphicsColor->RGBColor[1, 0, 0],
+       FontColor->RGBColor[1, 0, 0]], 
+      StyleBox["0",
+       StripOnInput->False,
+       LineColor->RGBColor[1, 0, 0],
+       FrontFaceColor->RGBColor[1, 0, 0],
+       BackFaceColor->RGBColor[1, 0, 0],
+       GraphicsColor->RGBColor[1, 0, 0],
+       FontColor->RGBColor[1, 0, 0]], 
+      StyleBox["\<\"dx\"\>",
+       StripOnInput->False,
+       LineColor->RGBColor[1, 0, 0],
+       FrontFaceColor->RGBColor[1, 0, 0],
+       BackFaceColor->RGBColor[1, 0, 0],
+       GraphicsColor->RGBColor[1, 0, 0],
+       FontColor->RGBColor[1, 0, 0]]},
+     {
+      StyleBox["0",
+       StripOnInput->False,
+       LineColor->RGBColor[1, 0, 0],
+       FrontFaceColor->RGBColor[1, 0, 0],
+       BackFaceColor->RGBColor[1, 0, 0],
+       GraphicsColor->RGBColor[1, 0, 0],
+       FontColor->RGBColor[1, 0, 0]], 
+      StyleBox["1",
+       StripOnInput->False,
+       LineColor->RGBColor[1, 0, 0],
+       FrontFaceColor->RGBColor[1, 0, 0],
+       BackFaceColor->RGBColor[1, 0, 0],
+       GraphicsColor->RGBColor[1, 0, 0],
+       FontColor->RGBColor[1, 0, 0]], 
+      StyleBox["\<\"dy\"\>",
+       StripOnInput->False,
+       LineColor->RGBColor[1, 0, 0],
+       FrontFaceColor->RGBColor[1, 0, 0],
+       BackFaceColor->RGBColor[1, 0, 0],
+       GraphicsColor->RGBColor[1, 0, 0],
+       FontColor->RGBColor[1, 0, 0]]},
+     {
+      StyleBox["0",
+       StripOnInput->False,
+       LineColor->RGBColor[1, 0, 0],
+       FrontFaceColor->RGBColor[1, 0, 0],
+       BackFaceColor->RGBColor[1, 0, 0],
+       GraphicsColor->RGBColor[1, 0, 0],
+       FontColor->RGBColor[1, 0, 0]], 
+      StyleBox["0",
+       StripOnInput->False,
+       LineColor->RGBColor[1, 0, 0],
+       FrontFaceColor->RGBColor[1, 0, 0],
+       BackFaceColor->RGBColor[1, 0, 0],
+       GraphicsColor->RGBColor[1, 0, 0],
+       FontColor->RGBColor[1, 0, 0]], 
+      StyleBox["1",
+       StripOnInput->False,
+       LineColor->RGBColor[1, 0, 0],
+       FrontFaceColor->RGBColor[1, 0, 0],
+       BackFaceColor->RGBColor[1, 0, 0],
+       GraphicsColor->RGBColor[1, 0, 0],
+       FontColor->RGBColor[1, 0, 0]]}
+    },
+    GridBoxAlignment->{"Columns" -> {{Center}}, "Rows" -> {{Baseline}}},
+    GridBoxSpacings->{"Columns" -> {
+        Offset[0.27999999999999997`], {
+         Offset[0.7]}, 
+        Offset[0.27999999999999997`]}, "Rows" -> {
+        Offset[0.2], {
+         Offset[0.4]}, 
+        Offset[0.2]}}], "\[NoBreak]", ")"}],
+  Function[BoxForm`e$, 
+   MatrixForm[BoxForm`e$]]]], "Print",
+ CellChangeTimes->{3.953945537753796*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"6e6b8692-a15b-4b58-9098-28ac97293b53"],
+
+Cell[BoxData["\<\"\\nPre na\[SHacek]e hodnoty:\"\>"], "Print",
+ CellChangeTimes->{3.953945537754199*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"f537e221-9127-45fc-beef-ccc56822fdf1"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"dx = \"\>", "\[InvisibleSpace]", 
+   RowBox[{"-", "3"}]}],
+  SequenceForm["dx = ", -3],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9539455377545958`*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"2a2efd3b-3d74-47e1-97d8-585579d652b2"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"dy = \"\>", "\[InvisibleSpace]", "5"}],
+  SequenceForm["dy = ", 5],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.953945537754982*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"af8a710f-6688-4829-985a-b5205a75d8a7"],
+
+Cell[BoxData["\<\"\\nPosun vykon\[AAcute]me pomocou vzorcov:\"\>"], "Print",
+ CellChangeTimes->{3.95394553775537*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"e4620b38-cef2-47ed-a996-c7376c786537"],
+
+Cell[BoxData["\<\"x' = x + dx\"\>"], "Print",
+ CellChangeTimes->{3.9539455377557383`*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"b774379c-9f12-4f03-a9c0-49fb3ed921e2"],
+
+Cell[BoxData["\<\"y' = y + dy\"\>"], "Print",
+ CellChangeTimes->{3.953945537756073*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"08824333-502d-4c40-bb09-3b0aef18cd8b"],
+
+Cell[BoxData["\<\"\\nV\[YAcute]po\[CHacek]et pre jednotliv\[EAcute] \
+vrcholy:\"\>"], "Print",
+ CellChangeTimes->{3.953945537756407*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"9a1a03be-636d-4f89-a5c2-15fca29d61af"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"\\nVrchol \"\>", "\[InvisibleSpace]", "\<\"A\"\>", 
+   "\[InvisibleSpace]", "\<\":\"\>"}],
+  SequenceForm["\nVrchol ", "A", ":"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.953945537756757*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"932b39b0-7182-4ef8-8b24-4928158bbdcc"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   StyleBox["\<\"P\[OHat]vodn\[EAcute] s\[UAcute]radnice:\"\>",
+    StripOnInput->False,
+    FontWeight->Bold], "\[InvisibleSpace]", "\<\" [\"\>", "\[InvisibleSpace]", 
+   RowBox[{"-", "1"}], "\[InvisibleSpace]", "\<\", \"\>", "\[InvisibleSpace]", 
+   RowBox[{"-", "6"}], "\[InvisibleSpace]", "\<\"]\"\>"}],
+  SequenceForm[
+   Style["P\[OHat]vodn\[EAcute] s\[UAcute]radnice:", Bold], " [", -1, 
+   ", ", -6, "]"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.953945537757125*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"02b30c83-1c7b-4f7d-9353-8784e9fe0919"],
+
+Cell[BoxData[
+ StyleBox["\<\"V\[YAcute]po\[CHacek]et x-ovej s\[UAcute]radnice:\"\>",
+  StripOnInput->False,
+  FontWeight->Bold]], "Print",
+ CellChangeTimes->{3.953945537757485*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"4f246cda-2f69-4e9f-bed5-c9a1541b2bb5"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"x' = x + dx = \"\>", "\[InvisibleSpace]", 
+   RowBox[{"-", "1"}], "\[InvisibleSpace]", "\<\" + \"\>", 
+   "\[InvisibleSpace]", 
+   RowBox[{"-", "3"}]}],
+  SequenceForm["x' = x + dx = ", -1, " + ", -3],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.953945537757842*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"a5b4823e-de38-4058-9943-0665759fe3c1"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"x' = \"\>", "\[InvisibleSpace]", 
+   RowBox[{"-", "4"}]}],
+  SequenceForm["x' = ", -4],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9539455377582083`*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"34aef593-9b75-4643-9873-beec03ddbd08"],
+
+Cell[BoxData[
+ StyleBox["\<\"V\[YAcute]po\[CHacek]et y-ovej s\[UAcute]radnice:\"\>",
+  StripOnInput->False,
+  FontWeight->Bold]], "Print",
+ CellChangeTimes->{3.953945537758552*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"09c6eb8d-b79f-4c52-b80a-70263da7c3c6"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"y' = y + dy = \"\>", "\[InvisibleSpace]", 
+   RowBox[{"-", "6"}], "\[InvisibleSpace]", "\<\" + \"\>", 
+   "\[InvisibleSpace]", "5"}],
+  SequenceForm["y' = y + dy = ", -6, " + ", 5],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.953945537758915*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"e5cd0eda-f5eb-4735-990b-29dd565c34e0"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"y' = \"\>", "\[InvisibleSpace]", 
+   RowBox[{"-", "1"}]}],
+  SequenceForm["y' = ", -1],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.953945537759284*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"f4769189-44bc-4dc1-9da3-891e688a85aa"],
+
+Cell[BoxData[
+ StyleBox["\<\"\\nOverenie pomocou inverznej transform\[AAcute]cie:\"\>",
+  StripOnInput->False,
+  FontWeight->Bold]], "Print",
+ CellChangeTimes->{3.953945537759634*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"3f3205eb-7818-4d89-927e-d445145fd144"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"x = x' + (-dx) = \"\>", "\[InvisibleSpace]", 
+   RowBox[{"-", "4"}], "\[InvisibleSpace]", "\<\" + (\"\>", 
+   "\[InvisibleSpace]", "3", "\[InvisibleSpace]", "\<\") = \"\>", 
+   "\[InvisibleSpace]", 
+   RowBox[{"-", "1"}]}],
+  SequenceForm["x = x' + (-dx) = ", -4, " + (", 3, ") = ", -1],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.953945537759986*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"1a1d67fc-1f49-4027-9f05-4df23fd2303a"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"y = y' + (-dy) = \"\>", "\[InvisibleSpace]", 
+   RowBox[{"-", "1"}], "\[InvisibleSpace]", "\<\" + (\"\>", 
+   "\[InvisibleSpace]", 
+   RowBox[{"-", "5"}], "\[InvisibleSpace]", "\<\") = \"\>", 
+   "\[InvisibleSpace]", 
+   RowBox[{"-", "6"}]}],
+  SequenceForm["y = y' + (-dy) = ", -1, " + (", -5, ") = ", -6],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.953945537760367*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"bfec2528-dc77-4f86-9e0e-c27414dd3a8e"],
+
+Cell[BoxData[
+ StyleBox["\<\"\\nMaticov\[YAcute] z\[AAcute]pis:\"\>",
+  StripOnInput->False,
+  FontWeight->Bold]], "Print",
+ CellChangeTimes->{3.953945537760707*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"8afc9aea-5736-4f41-a61c-0afc98dd253b"],
+
+Cell[BoxData[
+ TemplateBox[{
+   TagBox[
+    RowBox[{"(", "\[NoBreak]", 
+      GridBox[{{
+         StyleBox["1", 
+          RGBColor[1, 0, 0], StripOnInput -> False], 
+         StyleBox["0", 
+          RGBColor[1, 0, 0], StripOnInput -> False], 
+         StyleBox[
+          RowBox[{"-", "3"}], 
+          RGBColor[1, 0, 0], StripOnInput -> False]}, {
+         StyleBox["0", 
+          RGBColor[1, 0, 0], StripOnInput -> False], 
+         StyleBox["1", 
+          RGBColor[1, 0, 0], StripOnInput -> False], 
+         StyleBox["5", 
+          RGBColor[1, 0, 0], StripOnInput -> False]}, {
+         StyleBox["0", 
+          RGBColor[1, 0, 0], StripOnInput -> False], 
+         StyleBox["0", 
+          RGBColor[1, 0, 0], StripOnInput -> False], 
+         StyleBox["1", 
+          RGBColor[1, 0, 0], StripOnInput -> False]}}, RowSpacings -> 1, 
+       ColumnSpacings -> 1, RowAlignments -> Baseline, ColumnAlignments -> 
+       Center], "\[NoBreak]", ")"}], 
+    Function[BoxForm`e$, 
+     MatrixForm[BoxForm`e$]]], "\" \[CenterDot] \"", 
+   TagBox[
+    RowBox[{"(", "\[NoBreak]", 
+      GridBox[{{
+         RowBox[{"-", "1"}]}, {
+         RowBox[{"-", "6"}]}, {"1"}}, RowSpacings -> 1, ColumnSpacings -> 1, 
+       RowAlignments -> Baseline, ColumnAlignments -> Center], "\[NoBreak]", 
+      ")"}], 
+    Function[BoxForm`e$, 
+     MatrixForm[BoxForm`e$]]], "\" = \"", 
+   TagBox[
+    RowBox[{"(", "\[NoBreak]", 
+      GridBox[{{
+         RowBox[{"-", "4"}]}, {
+         RowBox[{"-", "1"}]}, {"1"}}, RowSpacings -> 1, ColumnSpacings -> 1, 
+       RowAlignments -> Baseline, ColumnAlignments -> Center], "\[NoBreak]", 
+      ")"}], 
+    Function[BoxForm`e$, 
+     MatrixForm[BoxForm`e$]]]},
+  "RowDefault"]], "Print",
+ CellChangeTimes->{3.9539455377611313`*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"f9434f2c-caaf-4e68-9da4-3f88558b0527"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"\\nVrchol \"\>", "\[InvisibleSpace]", "\<\"B\"\>", 
+   "\[InvisibleSpace]", "\<\":\"\>"}],
+  SequenceForm["\nVrchol ", "B", ":"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.953945537762124*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"e30642af-0693-49b6-8a5d-c3b43ed526fd"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   StyleBox["\<\"P\[OHat]vodn\[EAcute] s\[UAcute]radnice:\"\>",
+    StripOnInput->False,
+    FontWeight->Bold], "\[InvisibleSpace]", "\<\" [\"\>", "\[InvisibleSpace]",
+    "3", "\[InvisibleSpace]", "\<\", \"\>", "\[InvisibleSpace]", 
+   RowBox[{"-", "6"}], "\[InvisibleSpace]", "\<\"]\"\>"}],
+  SequenceForm[
+   Style["P\[OHat]vodn\[EAcute] s\[UAcute]radnice:", Bold], " [", 3, ", ", -6,
+    "]"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.953945537762488*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"8c347772-6a60-4a94-ad77-46eda389e8b2"],
+
+Cell[BoxData[
+ StyleBox["\<\"V\[YAcute]po\[CHacek]et x-ovej s\[UAcute]radnice:\"\>",
+  StripOnInput->False,
+  FontWeight->Bold]], "Print",
+ CellChangeTimes->{3.953945537762844*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"2174f42c-1076-4b30-bd09-82ae527be047"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"x' = x + dx = \"\>", "\[InvisibleSpace]", "3", 
+   "\[InvisibleSpace]", "\<\" + \"\>", "\[InvisibleSpace]", 
+   RowBox[{"-", "3"}]}],
+  SequenceForm["x' = x + dx = ", 3, " + ", -3],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9539455377631817`*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"612b3ad1-4b23-4129-aae2-a4fd59c15a9f"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"x' = \"\>", "\[InvisibleSpace]", "0"}],
+  SequenceForm["x' = ", 0],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.953945537763526*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"00000085-6835-421f-8795-6819f037471e"],
+
+Cell[BoxData[
+ StyleBox["\<\"V\[YAcute]po\[CHacek]et y-ovej s\[UAcute]radnice:\"\>",
+  StripOnInput->False,
+  FontWeight->Bold]], "Print",
+ CellChangeTimes->{3.953945537763863*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"e2246414-5100-4a41-802b-b567f5b0d7c2"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"y' = y + dy = \"\>", "\[InvisibleSpace]", 
+   RowBox[{"-", "6"}], "\[InvisibleSpace]", "\<\" + \"\>", 
+   "\[InvisibleSpace]", "5"}],
+  SequenceForm["y' = y + dy = ", -6, " + ", 5],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9539455377641983`*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"05efbff0-e9ce-479b-8988-fa6d5beb2679"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"y' = \"\>", "\[InvisibleSpace]", 
+   RowBox[{"-", "1"}]}],
+  SequenceForm["y' = ", -1],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9539455377645397`*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"6f00e468-f7e4-480a-ac68-a02fa465f01d"],
+
+Cell[BoxData[
+ StyleBox["\<\"\\nOverenie pomocou inverznej transform\[AAcute]cie:\"\>",
+  StripOnInput->False,
+  FontWeight->Bold]], "Print",
+ CellChangeTimes->{3.953945537764886*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"e06e019a-3db1-4c6c-bf5e-481a488e1c7f"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"x = x' + (-dx) = \"\>", "\[InvisibleSpace]", "0", 
+   "\[InvisibleSpace]", "\<\" + (\"\>", "\[InvisibleSpace]", "3", 
+   "\[InvisibleSpace]", "\<\") = \"\>", "\[InvisibleSpace]", "3"}],
+  SequenceForm["x = x' + (-dx) = ", 0, " + (", 3, ") = ", 3],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9539455377652407`*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"7c58ce0c-3926-4d26-b6f4-72a6e9903973"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"y = y' + (-dy) = \"\>", "\[InvisibleSpace]", 
+   RowBox[{"-", "1"}], "\[InvisibleSpace]", "\<\" + (\"\>", 
+   "\[InvisibleSpace]", 
+   RowBox[{"-", "5"}], "\[InvisibleSpace]", "\<\") = \"\>", 
+   "\[InvisibleSpace]", 
+   RowBox[{"-", "6"}]}],
+  SequenceForm["y = y' + (-dy) = ", -1, " + (", -5, ") = ", -6],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.953945537765614*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"b3e5ba64-239f-4dc8-b23a-54bf246aafad"],
+
+Cell[BoxData[
+ StyleBox["\<\"\\nMaticov\[YAcute] z\[AAcute]pis:\"\>",
+  StripOnInput->False,
+  FontWeight->Bold]], "Print",
+ CellChangeTimes->{3.9539455377659597`*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"7c5d3ed1-76d8-4f32-8981-8facb863c3ff"],
+
+Cell[BoxData[
+ TemplateBox[{
+   TagBox[
+    RowBox[{"(", "\[NoBreak]", 
+      GridBox[{{
+         StyleBox["1", 
+          RGBColor[1, 0, 0], StripOnInput -> False], 
+         StyleBox["0", 
+          RGBColor[1, 0, 0], StripOnInput -> False], 
+         StyleBox[
+          RowBox[{"-", "3"}], 
+          RGBColor[1, 0, 0], StripOnInput -> False]}, {
+         StyleBox["0", 
+          RGBColor[1, 0, 0], StripOnInput -> False], 
+         StyleBox["1", 
+          RGBColor[1, 0, 0], StripOnInput -> False], 
+         StyleBox["5", 
+          RGBColor[1, 0, 0], StripOnInput -> False]}, {
+         StyleBox["0", 
+          RGBColor[1, 0, 0], StripOnInput -> False], 
+         StyleBox["0", 
+          RGBColor[1, 0, 0], StripOnInput -> False], 
+         StyleBox["1", 
+          RGBColor[1, 0, 0], StripOnInput -> False]}}, RowSpacings -> 1, 
+       ColumnSpacings -> 1, RowAlignments -> Baseline, ColumnAlignments -> 
+       Center], "\[NoBreak]", ")"}], 
+    Function[BoxForm`e$, 
+     MatrixForm[BoxForm`e$]]], "\" \[CenterDot] \"", 
+   TagBox[
+    RowBox[{"(", "\[NoBreak]", 
+      GridBox[{{"3"}, {
+         RowBox[{"-", "6"}]}, {"1"}}, RowSpacings -> 1, ColumnSpacings -> 1, 
+       RowAlignments -> Baseline, ColumnAlignments -> Center], "\[NoBreak]", 
+      ")"}], 
+    Function[BoxForm`e$, 
+     MatrixForm[BoxForm`e$]]], "\" = \"", 
+   TagBox[
+    RowBox[{"(", "\[NoBreak]", 
+      GridBox[{{"0"}, {
+         RowBox[{"-", "1"}]}, {"1"}}, RowSpacings -> 1, ColumnSpacings -> 1, 
+       RowAlignments -> Baseline, ColumnAlignments -> Center], "\[NoBreak]", 
+      ")"}], 
+    Function[BoxForm`e$, 
+     MatrixForm[BoxForm`e$]]]},
+  "RowDefault"]], "Print",
+ CellChangeTimes->{3.953945537766346*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"84e3b1b9-4d60-4191-bab1-87d563397466"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"\\nVrchol \"\>", "\[InvisibleSpace]", "\<\"C\"\>", 
+   "\[InvisibleSpace]", "\<\":\"\>"}],
+  SequenceForm["\nVrchol ", "C", ":"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.953945537767017*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"8fa04278-d918-473b-9ffc-8db4eb99d3ea"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   StyleBox["\<\"P\[OHat]vodn\[EAcute] s\[UAcute]radnice:\"\>",
+    StripOnInput->False,
+    FontWeight->Bold], "\[InvisibleSpace]", "\<\" [\"\>", "\[InvisibleSpace]",
+    "3", "\[InvisibleSpace]", "\<\", \"\>", "\[InvisibleSpace]", 
+   RowBox[{"-", "2"}], "\[InvisibleSpace]", "\<\"]\"\>"}],
+  SequenceForm[
+   Style["P\[OHat]vodn\[EAcute] s\[UAcute]radnice:", Bold], " [", 3, ", ", -2,
+    "]"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9539455377673397`*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"604eb54a-74b5-4245-a1e7-5659ff9f47b3"],
+
+Cell[BoxData[
+ StyleBox["\<\"V\[YAcute]po\[CHacek]et x-ovej s\[UAcute]radnice:\"\>",
+  StripOnInput->False,
+  FontWeight->Bold]], "Print",
+ CellChangeTimes->{3.953945537767664*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"3c449b77-46bf-4e71-b2cd-774825720092"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"x' = x + dx = \"\>", "\[InvisibleSpace]", "3", 
+   "\[InvisibleSpace]", "\<\" + \"\>", "\[InvisibleSpace]", 
+   RowBox[{"-", "3"}]}],
+  SequenceForm["x' = x + dx = ", 3, " + ", -3],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.953945537767972*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"f5d43736-a344-42df-8b34-fa8ce7d48db3"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"x' = \"\>", "\[InvisibleSpace]", "0"}],
+  SequenceForm["x' = ", 0],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9539455377682858`*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"da1ec9dc-cc46-4c77-8ffa-96962834d301"],
+
+Cell[BoxData[
+ StyleBox["\<\"V\[YAcute]po\[CHacek]et y-ovej s\[UAcute]radnice:\"\>",
+  StripOnInput->False,
+  FontWeight->Bold]], "Print",
+ CellChangeTimes->{3.953945537768589*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"59287375-91b3-4e7a-849c-436937fba211"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"y' = y + dy = \"\>", "\[InvisibleSpace]", 
+   RowBox[{"-", "2"}], "\[InvisibleSpace]", "\<\" + \"\>", 
+   "\[InvisibleSpace]", "5"}],
+  SequenceForm["y' = y + dy = ", -2, " + ", 5],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.953945537768895*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"ceef9cf0-78a2-482a-8b02-30c7c830eb36"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"y' = \"\>", "\[InvisibleSpace]", "3"}],
+  SequenceForm["y' = ", 3],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.953945537769203*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"a1b16719-6341-4fb5-9685-b680f77bd303"],
+
+Cell[BoxData[
+ StyleBox["\<\"\\nOverenie pomocou inverznej transform\[AAcute]cie:\"\>",
+  StripOnInput->False,
+  FontWeight->Bold]], "Print",
+ CellChangeTimes->{3.9539455377695*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"77b839f0-0f1a-44fc-bfc1-4caf75cc9d9a"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"x = x' + (-dx) = \"\>", "\[InvisibleSpace]", "0", 
+   "\[InvisibleSpace]", "\<\" + (\"\>", "\[InvisibleSpace]", "3", 
+   "\[InvisibleSpace]", "\<\") = \"\>", "\[InvisibleSpace]", "3"}],
+  SequenceForm["x = x' + (-dx) = ", 0, " + (", 3, ") = ", 3],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.953945537769804*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"7e4c06e0-10d9-4167-a236-7ff64edd40f1"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"y = y' + (-dy) = \"\>", "\[InvisibleSpace]", "3", 
+   "\[InvisibleSpace]", "\<\" + (\"\>", "\[InvisibleSpace]", 
+   RowBox[{"-", "5"}], "\[InvisibleSpace]", "\<\") = \"\>", 
+   "\[InvisibleSpace]", 
+   RowBox[{"-", "2"}]}],
+  SequenceForm["y = y' + (-dy) = ", 3, " + (", -5, ") = ", -2],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.953945537770129*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"980549ed-764c-497e-b0e3-e5c8d5526d47"],
+
+Cell[BoxData[
+ StyleBox["\<\"\\nMaticov\[YAcute] z\[AAcute]pis:\"\>",
+  StripOnInput->False,
+  FontWeight->Bold]], "Print",
+ CellChangeTimes->{3.953945537770447*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"e0c3b8ff-a23e-420f-873e-d78d920218ed"],
+
+Cell[BoxData[
+ TemplateBox[{
+   TagBox[
+    RowBox[{"(", "\[NoBreak]", 
+      GridBox[{{
+         StyleBox["1", 
+          RGBColor[1, 0, 0], StripOnInput -> False], 
+         StyleBox["0", 
+          RGBColor[1, 0, 0], StripOnInput -> False], 
+         StyleBox[
+          RowBox[{"-", "3"}], 
+          RGBColor[1, 0, 0], StripOnInput -> False]}, {
+         StyleBox["0", 
+          RGBColor[1, 0, 0], StripOnInput -> False], 
+         StyleBox["1", 
+          RGBColor[1, 0, 0], StripOnInput -> False], 
+         StyleBox["5", 
+          RGBColor[1, 0, 0], StripOnInput -> False]}, {
+         StyleBox["0", 
+          RGBColor[1, 0, 0], StripOnInput -> False], 
+         StyleBox["0", 
+          RGBColor[1, 0, 0], StripOnInput -> False], 
+         StyleBox["1", 
+          RGBColor[1, 0, 0], StripOnInput -> False]}}, RowSpacings -> 1, 
+       ColumnSpacings -> 1, RowAlignments -> Baseline, ColumnAlignments -> 
+       Center], "\[NoBreak]", ")"}], 
+    Function[BoxForm`e$, 
+     MatrixForm[BoxForm`e$]]], "\" \[CenterDot] \"", 
+   TagBox[
+    RowBox[{"(", "\[NoBreak]", 
+      GridBox[{{"3"}, {
+         RowBox[{"-", "2"}]}, {"1"}}, RowSpacings -> 1, ColumnSpacings -> 1, 
+       RowAlignments -> Baseline, ColumnAlignments -> Center], "\[NoBreak]", 
+      ")"}], 
+    Function[BoxForm`e$, 
+     MatrixForm[BoxForm`e$]]], "\" = \"", 
+   TagBox[
+    RowBox[{"(", "\[NoBreak]", 
+      GridBox[{{"0"}, {"3"}, {"1"}}, RowSpacings -> 1, ColumnSpacings -> 1, 
+       RowAlignments -> Baseline, ColumnAlignments -> Center], "\[NoBreak]", 
+      ")"}], 
+    Function[BoxForm`e$, 
+     MatrixForm[BoxForm`e$]]]},
+  "RowDefault"]], "Print",
+ CellChangeTimes->{3.953945537770808*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"0a3d6399-aeb4-4d34-a816-61867cb33423"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"\\nVrchol \"\>", "\[InvisibleSpace]", "\<\"D\"\>", 
+   "\[InvisibleSpace]", "\<\":\"\>"}],
+  SequenceForm["\nVrchol ", "D", ":"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9539455377714643`*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"190cef99-420b-4b64-8e75-58318781893d"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   StyleBox["\<\"P\[OHat]vodn\[EAcute] s\[UAcute]radnice:\"\>",
+    StripOnInput->False,
+    FontWeight->Bold], "\[InvisibleSpace]", "\<\" [\"\>", "\[InvisibleSpace]", 
+   RowBox[{"-", "1"}], "\[InvisibleSpace]", "\<\", \"\>", "\[InvisibleSpace]", 
+   RowBox[{"-", "2"}], "\[InvisibleSpace]", "\<\"]\"\>"}],
+  SequenceForm[
+   Style["P\[OHat]vodn\[EAcute] s\[UAcute]radnice:", Bold], " [", -1, 
+   ", ", -2, "]"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.953945537771802*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"af6b3362-8437-4cfd-a00b-1c797251bfb8"],
+
+Cell[BoxData[
+ StyleBox["\<\"V\[YAcute]po\[CHacek]et x-ovej s\[UAcute]radnice:\"\>",
+  StripOnInput->False,
+  FontWeight->Bold]], "Print",
+ CellChangeTimes->{3.953945537772129*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"57033530-5ccb-48ff-8a90-a9d2d4d92c66"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"x' = x + dx = \"\>", "\[InvisibleSpace]", 
+   RowBox[{"-", "1"}], "\[InvisibleSpace]", "\<\" + \"\>", 
+   "\[InvisibleSpace]", 
+   RowBox[{"-", "3"}]}],
+  SequenceForm["x' = x + dx = ", -1, " + ", -3],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9539455377724237`*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"0eb34ded-5e02-4906-a223-892f9a4485cd"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"x' = \"\>", "\[InvisibleSpace]", 
+   RowBox[{"-", "4"}]}],
+  SequenceForm["x' = ", -4],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.953945537772736*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"425092a3-44eb-413d-95ae-69cdbc5419aa"],
+
+Cell[BoxData[
+ StyleBox["\<\"V\[YAcute]po\[CHacek]et y-ovej s\[UAcute]radnice:\"\>",
+  StripOnInput->False,
+  FontWeight->Bold]], "Print",
+ CellChangeTimes->{3.953945537773033*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"a1e0c379-2341-4b32-b1f5-98a2d9312e55"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"y' = y + dy = \"\>", "\[InvisibleSpace]", 
+   RowBox[{"-", "2"}], "\[InvisibleSpace]", "\<\" + \"\>", 
+   "\[InvisibleSpace]", "5"}],
+  SequenceForm["y' = y + dy = ", -2, " + ", 5],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.953945537773334*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"c10ea7c2-6fd4-4223-8699-a96327df2397"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"y' = \"\>", "\[InvisibleSpace]", "3"}],
+  SequenceForm["y' = ", 3],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9539455377736397`*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"f421fc4c-b79a-449c-b2bb-47caf9bbb263"],
+
+Cell[BoxData[
+ StyleBox["\<\"\\nOverenie pomocou inverznej transform\[AAcute]cie:\"\>",
+  StripOnInput->False,
+  FontWeight->Bold]], "Print",
+ CellChangeTimes->{3.953945537773919*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"9eb662e4-e24e-4808-9a7a-61a229c7c170"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"x = x' + (-dx) = \"\>", "\[InvisibleSpace]", 
+   RowBox[{"-", "4"}], "\[InvisibleSpace]", "\<\" + (\"\>", 
+   "\[InvisibleSpace]", "3", "\[InvisibleSpace]", "\<\") = \"\>", 
+   "\[InvisibleSpace]", 
+   RowBox[{"-", "1"}]}],
+  SequenceForm["x = x' + (-dx) = ", -4, " + (", 3, ") = ", -1],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9539455377742167`*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"3d2d868f-4570-41da-af2e-a3bcdeed2127"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"y = y' + (-dy) = \"\>", "\[InvisibleSpace]", "3", 
+   "\[InvisibleSpace]", "\<\" + (\"\>", "\[InvisibleSpace]", 
+   RowBox[{"-", "5"}], "\[InvisibleSpace]", "\<\") = \"\>", 
+   "\[InvisibleSpace]", 
+   RowBox[{"-", "2"}]}],
+  SequenceForm["y = y' + (-dy) = ", 3, " + (", -5, ") = ", -2],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.953945537774534*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"d5c8a403-6c3c-4796-9dd4-23f7c28f08ed"],
+
+Cell[BoxData[
+ StyleBox["\<\"\\nMaticov\[YAcute] z\[AAcute]pis:\"\>",
+  StripOnInput->False,
+  FontWeight->Bold]], "Print",
+ CellChangeTimes->{3.953945537774837*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"2f3e5ff2-86a3-489c-b3ae-b27e6175d739"],
+
+Cell[BoxData[
+ TemplateBox[{
+   TagBox[
+    RowBox[{"(", "\[NoBreak]", 
+      GridBox[{{
+         StyleBox["1", 
+          RGBColor[1, 0, 0], StripOnInput -> False], 
+         StyleBox["0", 
+          RGBColor[1, 0, 0], StripOnInput -> False], 
+         StyleBox[
+          RowBox[{"-", "3"}], 
+          RGBColor[1, 0, 0], StripOnInput -> False]}, {
+         StyleBox["0", 
+          RGBColor[1, 0, 0], StripOnInput -> False], 
+         StyleBox["1", 
+          RGBColor[1, 0, 0], StripOnInput -> False], 
+         StyleBox["5", 
+          RGBColor[1, 0, 0], StripOnInput -> False]}, {
+         StyleBox["0", 
+          RGBColor[1, 0, 0], StripOnInput -> False], 
+         StyleBox["0", 
+          RGBColor[1, 0, 0], StripOnInput -> False], 
+         StyleBox["1", 
+          RGBColor[1, 0, 0], StripOnInput -> False]}}, RowSpacings -> 1, 
+       ColumnSpacings -> 1, RowAlignments -> Baseline, ColumnAlignments -> 
+       Center], "\[NoBreak]", ")"}], 
+    Function[BoxForm`e$, 
+     MatrixForm[BoxForm`e$]]], "\" \[CenterDot] \"", 
+   TagBox[
+    RowBox[{"(", "\[NoBreak]", 
+      GridBox[{{
+         RowBox[{"-", "1"}]}, {
+         RowBox[{"-", "2"}]}, {"1"}}, RowSpacings -> 1, ColumnSpacings -> 1, 
+       RowAlignments -> Baseline, ColumnAlignments -> Center], "\[NoBreak]", 
+      ")"}], 
+    Function[BoxForm`e$, 
+     MatrixForm[BoxForm`e$]]], "\" = \"", 
+   TagBox[
+    RowBox[{"(", "\[NoBreak]", 
+      GridBox[{{
+         RowBox[{"-", "4"}]}, {"3"}, {"1"}}, RowSpacings -> 1, ColumnSpacings -> 
+       1, RowAlignments -> Baseline, ColumnAlignments -> Center], 
+      "\[NoBreak]", ")"}], 
+    Function[BoxForm`e$, 
+     MatrixForm[BoxForm`e$]]]},
+  "RowDefault"]], "Print",
+ CellChangeTimes->{3.953945537775179*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"c7c7ab40-86a2-49bb-8da5-0ab074be678d"],
+
+Cell[BoxData[
+ StyleBox["\<\"\\nV\[CapitalYAcute]SLEDOK:\"\>",
+  StripOnInput->False,
+  FontSize->14,
+  FontWeight->Bold]], "Print",
+ CellChangeTimes->{3.95394553777579*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"13454946-4c00-4a56-b5da-c8ce0ed0fc0f"],
+
+Cell[BoxData["\<\"Vrcholy \[SHacek]tvorca po posune:\"\>"], "Print",
+ CellChangeTimes->{3.953945537776078*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"38e214f9-fa7d-447c-aa3d-9497df6b45ae"],
+
+Cell[BoxData[
+ TagBox[
+  RowBox[{"(", "\[NoBreak]", GridBox[{
+     {
+      StyleBox[
+       RowBox[{"-", "4"}],
+       StripOnInput->False,
+       LineColor->RGBColor[1, 0, 0],
+       FrontFaceColor->RGBColor[1, 0, 0],
+       BackFaceColor->RGBColor[1, 0, 0],
+       GraphicsColor->RGBColor[1, 0, 0],
+       FontColor->RGBColor[1, 0, 0]], 
+      StyleBox[
+       RowBox[{"-", "1"}],
+       StripOnInput->False,
+       LineColor->RGBColor[1, 0, 0],
+       FrontFaceColor->RGBColor[1, 0, 0],
+       BackFaceColor->RGBColor[1, 0, 0],
+       GraphicsColor->RGBColor[1, 0, 0],
+       FontColor->RGBColor[1, 0, 0]]},
+     {
+      StyleBox["0",
+       StripOnInput->False,
+       LineColor->RGBColor[1, 0, 0],
+       FrontFaceColor->RGBColor[1, 0, 0],
+       BackFaceColor->RGBColor[1, 0, 0],
+       GraphicsColor->RGBColor[1, 0, 0],
+       FontColor->RGBColor[1, 0, 0]], 
+      StyleBox[
+       RowBox[{"-", "1"}],
+       StripOnInput->False,
+       LineColor->RGBColor[1, 0, 0],
+       FrontFaceColor->RGBColor[1, 0, 0],
+       BackFaceColor->RGBColor[1, 0, 0],
+       GraphicsColor->RGBColor[1, 0, 0],
+       FontColor->RGBColor[1, 0, 0]]},
+     {
+      StyleBox["0",
+       StripOnInput->False,
+       LineColor->RGBColor[1, 0, 0],
+       FrontFaceColor->RGBColor[1, 0, 0],
+       BackFaceColor->RGBColor[1, 0, 0],
+       GraphicsColor->RGBColor[1, 0, 0],
+       FontColor->RGBColor[1, 0, 0]], 
+      StyleBox["3",
+       StripOnInput->False,
+       LineColor->RGBColor[1, 0, 0],
+       FrontFaceColor->RGBColor[1, 0, 0],
+       BackFaceColor->RGBColor[1, 0, 0],
+       GraphicsColor->RGBColor[1, 0, 0],
+       FontColor->RGBColor[1, 0, 0]]},
+     {
+      StyleBox[
+       RowBox[{"-", "4"}],
+       StripOnInput->False,
+       LineColor->RGBColor[1, 0, 0],
+       FrontFaceColor->RGBColor[1, 0, 0],
+       BackFaceColor->RGBColor[1, 0, 0],
+       GraphicsColor->RGBColor[1, 0, 0],
+       FontColor->RGBColor[1, 0, 0]], 
+      StyleBox["3",
+       StripOnInput->False,
+       LineColor->RGBColor[1, 0, 0],
+       FrontFaceColor->RGBColor[1, 0, 0],
+       BackFaceColor->RGBColor[1, 0, 0],
+       GraphicsColor->RGBColor[1, 0, 0],
+       FontColor->RGBColor[1, 0, 0]]}
+    },
+    GridBoxAlignment->{"Columns" -> {{Center}}, "Rows" -> {{Baseline}}},
+    GridBoxSpacings->{"Columns" -> {
+        Offset[0.27999999999999997`], {
+         Offset[0.7]}, 
+        Offset[0.27999999999999997`]}, "Rows" -> {
+        Offset[0.2], {
+         Offset[0.4]}, 
+        Offset[0.2]}}], "\[NoBreak]", ")"}],
+  Function[BoxForm`e$, 
+   MatrixForm[BoxForm`e$]]]], "Print",
+ CellChangeTimes->{3.953945537776442*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"cb1f5bb1-cf91-4a7a-9ac2-4d1addcdccc7"],
+
+Cell[BoxData[
+ StyleBox["\<\"\\nVIZUALIZ\[CapitalAAcute]CIA:\"\>",
+  StripOnInput->False,
+  FontWeight->Bold]], "Print",
+ CellChangeTimes->{3.9539455377767353`*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"a831cd7e-d67c-40ab-a5a7-f4f642b0889e"],
+
+Cell[BoxData[
+ GraphicsBox[{
+   {GrayLevel[0.85], Thickness[
+    Tiny], {LineBox[{{-11, -11}, {11, -11}}], LineBox[{{-11, -9}, {11, -9}}], 
+     LineBox[{{-11, -7}, {11, -7}}], LineBox[{{-11, -5}, {11, -5}}], 
+     LineBox[{{-11, -3}, {11, -3}}], LineBox[{{-11, -1}, {11, -1}}], 
+     LineBox[{{-11, 1}, {11, 1}}], LineBox[{{-11, 3}, {11, 3}}], 
+     LineBox[{{-11, 5}, {11, 5}}], LineBox[{{-11, 7}, {11, 7}}], 
+     LineBox[{{-11, 9}, {11, 9}}], LineBox[{{-11, 11}, {11, 11}}]}, {
+     LineBox[{{-11, -11}, {-11, 11}}], LineBox[{{-9, -11}, {-9, 11}}], 
+     LineBox[{{-7, -11}, {-7, 11}}], LineBox[{{-5, -11}, {-5, 11}}], 
+     LineBox[{{-3, -11}, {-3, 11}}], LineBox[{{-1, -11}, {-1, 11}}], 
+     LineBox[{{1, -11}, {1, 11}}], LineBox[{{3, -11}, {3, 11}}], 
+     LineBox[{{5, -11}, {5, 11}}], LineBox[{{7, -11}, {7, 11}}], 
+     LineBox[{{9, -11}, {9, 11}}], LineBox[{{11, -11}, {11, 11}}]}}, 
+   {RGBColor[0, 0, 1], Thickness[Large], Opacity[0.7], 
+    LineBox[{{-1, -6}, {3, -6}, {3, -2}, {-1, -2}, {-1, -6}}]}, 
+   {RGBColor[1, 0, 0], Thickness[Large], Opacity[0.7], 
+    LineBox[{{-4, -1}, {0, -1}, {0, 3}, {-4, 3}, {-4, -1}}], 
+    {RGBColor[0, 1, 0], 
+     Dashing[{Small, Small}], {LineBox[{{-1, -6}, {-4, -1}}], 
+      LineBox[{{3, -6}, {0, -1}}], LineBox[{{3, -2}, {0, 3}}], 
+      LineBox[{{-1, -2}, {-4, 3}}]}, 
+     {GrayLevel[
+      1], {DiskBox[{-1, -6}, 0.45], DiskBox[{3, -6}, 0.45], 
+       DiskBox[{3, -2}, 0.45], DiskBox[{-1, -2}, 0.45]}, {
+       DiskBox[{-4, -1}, 0.45], DiskBox[{0, -1}, 0.45], DiskBox[{0, 3}, 0.45],
+        DiskBox[{-4, 3}, 0.45]}}, 
+     {RGBColor[0, 0, 1], PointSize[0.025], 
+      PointBox[{{-1, -6}, {3, -6}, {3, -2}, {-1, -2}}]}, 
+     {RGBColor[1, 0, 0], PointSize[0.025], 
+      PointBox[{{-4, -1}, {0, -1}, {0, 3}, {-4, 3}}], {{InsetBox[
+         StyleBox["\<\"A\"\>",
+          StripOnInput->False,
+          LineColor->RGBColor[0, 0, 1],
+          FrontFaceColor->RGBColor[0, 0, 1],
+          BackFaceColor->RGBColor[0, 0, 1],
+          GraphicsColor->RGBColor[0, 0, 1],
+          FontSize->16,
+          FontWeight->Bold,
+          FontColor->RGBColor[0, 0, 1]], {-0.30000000000000004, -5.3}], 
+        InsetBox[
+         StyleBox["\<\"A'\"\>",
+          StripOnInput->False,
+          LineColor->RGBColor[1, 0, 0],
+          FrontFaceColor->RGBColor[1, 0, 0],
+          BackFaceColor->RGBColor[1, 0, 0],
+          GraphicsColor->RGBColor[1, 0, 0],
+          FontSize->16,
+          FontWeight->Bold,
+          FontColor->RGBColor[1, 0, 0]], {-3.3, -0.30000000000000004}]}, {
+        InsetBox[
+         StyleBox["\<\"B\"\>",
+          StripOnInput->False,
+          LineColor->RGBColor[0, 0, 1],
+          FrontFaceColor->RGBColor[0, 0, 1],
+          BackFaceColor->RGBColor[0, 0, 1],
+          GraphicsColor->RGBColor[0, 0, 1],
+          FontSize->16,
+          FontWeight->Bold,
+          FontColor->RGBColor[0, 0, 1]], {3.7, -5.3}], InsetBox[
+         StyleBox["\<\"B'\"\>",
+          StripOnInput->False,
+          LineColor->RGBColor[1, 0, 0],
+          FrontFaceColor->RGBColor[1, 0, 0],
+          BackFaceColor->RGBColor[1, 0, 0],
+          GraphicsColor->RGBColor[1, 0, 0],
+          FontSize->16,
+          FontWeight->Bold,
+          FontColor->RGBColor[1, 0, 0]], {0.7, -0.30000000000000004}]}, {
+        InsetBox[
+         StyleBox["\<\"C\"\>",
+          StripOnInput->False,
+          LineColor->RGBColor[0, 0, 1],
+          FrontFaceColor->RGBColor[0, 0, 1],
+          BackFaceColor->RGBColor[0, 0, 1],
+          GraphicsColor->RGBColor[0, 0, 1],
+          FontSize->16,
+          FontWeight->Bold,
+          FontColor->RGBColor[0, 0, 1]], {3.7, -1.3}], InsetBox[
+         StyleBox["\<\"C'\"\>",
+          StripOnInput->False,
+          LineColor->RGBColor[1, 0, 0],
+          FrontFaceColor->RGBColor[1, 0, 0],
+          BackFaceColor->RGBColor[1, 0, 0],
+          GraphicsColor->RGBColor[1, 0, 0],
+          FontSize->16,
+          FontWeight->Bold,
+          FontColor->RGBColor[1, 0, 0]], {0.7, 3.7}]}, {InsetBox[
+         StyleBox["\<\"D\"\>",
+          StripOnInput->False,
+          LineColor->RGBColor[0, 0, 1],
+          FrontFaceColor->RGBColor[0, 0, 1],
+          BackFaceColor->RGBColor[0, 0, 1],
+          GraphicsColor->RGBColor[0, 0, 1],
+          FontSize->16,
+          FontWeight->Bold,
+          FontColor->RGBColor[0, 0, 1]], {-0.30000000000000004, -1.3}], 
+        InsetBox[
+         StyleBox["\<\"D'\"\>",
+          StripOnInput->False,
+          LineColor->RGBColor[1, 0, 0],
+          FrontFaceColor->RGBColor[1, 0, 0],
+          BackFaceColor->RGBColor[1, 0, 0],
+          GraphicsColor->RGBColor[1, 0, 0],
+          FontSize->16,
+          FontWeight->Bold,
+          FontColor->RGBColor[1, 0, 0]], {-3.3, 3.7}]}}, 
+      {GrayLevel[0], Thickness[Large], ArrowBox[{{-11, 0}, {11, 0}}], 
+       ArrowBox[{{0, -11}, {0, 11}}], InsetBox[
+        StyleBox["\<\"x\"\>",
+         StripOnInput->False,
+         LineColor->GrayLevel[0],
+         FrontFaceColor->GrayLevel[0],
+         BackFaceColor->GrayLevel[0],
+         GraphicsColor->GrayLevel[0],
+         FontWeight->Bold,
+         FontColor->GrayLevel[0]], {10.5, -0.5}], InsetBox[
+        StyleBox["\<\"y\"\>",
+         StripOnInput->False,
+         LineColor->GrayLevel[0],
+         FrontFaceColor->GrayLevel[0],
+         BackFaceColor->GrayLevel[0],
+         GraphicsColor->GrayLevel[0],
+         FontWeight->Bold,
+         FontColor->GrayLevel[0]], {-0.5, 10.5}], {InsetBox[
+         StyleBox[
+          RowBox[{"-", "11"}],
+          StripOnInput->False,
+          LineColor->GrayLevel[0.5],
+          FrontFaceColor->GrayLevel[0.5],
+          BackFaceColor->GrayLevel[0.5],
+          GraphicsColor->GrayLevel[0.5],
+          FontSize->10,
+          FontColor->GrayLevel[0.5]], {-11, -0.3}], InsetBox[
+         StyleBox[
+          RowBox[{"-", "10"}],
+          StripOnInput->False,
+          LineColor->GrayLevel[0.5],
+          FrontFaceColor->GrayLevel[0.5],
+          BackFaceColor->GrayLevel[0.5],
+          GraphicsColor->GrayLevel[0.5],
+          FontSize->10,
+          FontColor->GrayLevel[0.5]], {-10, -0.3}], InsetBox[
+         StyleBox[
+          RowBox[{"-", "9"}],
+          StripOnInput->False,
+          LineColor->GrayLevel[0.5],
+          FrontFaceColor->GrayLevel[0.5],
+          BackFaceColor->GrayLevel[0.5],
+          GraphicsColor->GrayLevel[0.5],
+          FontSize->10,
+          FontColor->GrayLevel[0.5]], {-9, -0.3}], InsetBox[
+         StyleBox[
+          RowBox[{"-", "8"}],
+          StripOnInput->False,
+          LineColor->GrayLevel[0.5],
+          FrontFaceColor->GrayLevel[0.5],
+          BackFaceColor->GrayLevel[0.5],
+          GraphicsColor->GrayLevel[0.5],
+          FontSize->10,
+          FontColor->GrayLevel[0.5]], {-8, -0.3}], InsetBox[
+         StyleBox[
+          RowBox[{"-", "7"}],
+          StripOnInput->False,
+          LineColor->GrayLevel[0.5],
+          FrontFaceColor->GrayLevel[0.5],
+          BackFaceColor->GrayLevel[0.5],
+          GraphicsColor->GrayLevel[0.5],
+          FontSize->10,
+          FontColor->GrayLevel[0.5]], {-7, -0.3}], InsetBox[
+         StyleBox[
+          RowBox[{"-", "6"}],
+          StripOnInput->False,
+          LineColor->GrayLevel[0.5],
+          FrontFaceColor->GrayLevel[0.5],
+          BackFaceColor->GrayLevel[0.5],
+          GraphicsColor->GrayLevel[0.5],
+          FontSize->10,
+          FontColor->GrayLevel[0.5]], {-6, -0.3}], InsetBox[
+         StyleBox[
+          RowBox[{"-", "5"}],
+          StripOnInput->False,
+          LineColor->GrayLevel[0.5],
+          FrontFaceColor->GrayLevel[0.5],
+          BackFaceColor->GrayLevel[0.5],
+          GraphicsColor->GrayLevel[0.5],
+          FontSize->10,
+          FontColor->GrayLevel[0.5]], {-5, -0.3}], InsetBox[
+         StyleBox[
+          RowBox[{"-", "4"}],
+          StripOnInput->False,
+          LineColor->GrayLevel[0.5],
+          FrontFaceColor->GrayLevel[0.5],
+          BackFaceColor->GrayLevel[0.5],
+          GraphicsColor->GrayLevel[0.5],
+          FontSize->10,
+          FontColor->GrayLevel[0.5]], {-4, -0.3}], InsetBox[
+         StyleBox[
+          RowBox[{"-", "3"}],
+          StripOnInput->False,
+          LineColor->GrayLevel[0.5],
+          FrontFaceColor->GrayLevel[0.5],
+          BackFaceColor->GrayLevel[0.5],
+          GraphicsColor->GrayLevel[0.5],
+          FontSize->10,
+          FontColor->GrayLevel[0.5]], {-3, -0.3}], InsetBox[
+         StyleBox[
+          RowBox[{"-", "2"}],
+          StripOnInput->False,
+          LineColor->GrayLevel[0.5],
+          FrontFaceColor->GrayLevel[0.5],
+          BackFaceColor->GrayLevel[0.5],
+          GraphicsColor->GrayLevel[0.5],
+          FontSize->10,
+          FontColor->GrayLevel[0.5]], {-2, -0.3}], InsetBox[
+         StyleBox[
+          RowBox[{"-", "1"}],
+          StripOnInput->False,
+          LineColor->GrayLevel[0.5],
+          FrontFaceColor->GrayLevel[0.5],
+          BackFaceColor->GrayLevel[0.5],
+          GraphicsColor->GrayLevel[0.5],
+          FontSize->10,
+          FontColor->GrayLevel[0.5]], {-1, -0.3}], InsetBox[
+         StyleBox["0",
+          StripOnInput->False,
+          LineColor->GrayLevel[0.5],
+          FrontFaceColor->GrayLevel[0.5],
+          BackFaceColor->GrayLevel[0.5],
+          GraphicsColor->GrayLevel[0.5],
+          FontSize->10,
+          FontColor->GrayLevel[0.5]], {0, -0.3}], InsetBox[
+         StyleBox["1",
+          StripOnInput->False,
+          LineColor->GrayLevel[0.5],
+          FrontFaceColor->GrayLevel[0.5],
+          BackFaceColor->GrayLevel[0.5],
+          GraphicsColor->GrayLevel[0.5],
+          FontSize->10,
+          FontColor->GrayLevel[0.5]], {1, -0.3}], InsetBox[
+         StyleBox["2",
+          StripOnInput->False,
+          LineColor->GrayLevel[0.5],
+          FrontFaceColor->GrayLevel[0.5],
+          BackFaceColor->GrayLevel[0.5],
+          GraphicsColor->GrayLevel[0.5],
+          FontSize->10,
+          FontColor->GrayLevel[0.5]], {2, -0.3}], InsetBox[
+         StyleBox["3",
+          StripOnInput->False,
+          LineColor->GrayLevel[0.5],
+          FrontFaceColor->GrayLevel[0.5],
+          BackFaceColor->GrayLevel[0.5],
+          GraphicsColor->GrayLevel[0.5],
+          FontSize->10,
+          FontColor->GrayLevel[0.5]], {3, -0.3}], InsetBox[
+         StyleBox["4",
+          StripOnInput->False,
+          LineColor->GrayLevel[0.5],
+          FrontFaceColor->GrayLevel[0.5],
+          BackFaceColor->GrayLevel[0.5],
+          GraphicsColor->GrayLevel[0.5],
+          FontSize->10,
+          FontColor->GrayLevel[0.5]], {4, -0.3}], InsetBox[
+         StyleBox["5",
+          StripOnInput->False,
+          LineColor->GrayLevel[0.5],
+          FrontFaceColor->GrayLevel[0.5],
+          BackFaceColor->GrayLevel[0.5],
+          GraphicsColor->GrayLevel[0.5],
+          FontSize->10,
+          FontColor->GrayLevel[0.5]], {5, -0.3}], InsetBox[
+         StyleBox["6",
+          StripOnInput->False,
+          LineColor->GrayLevel[0.5],
+          FrontFaceColor->GrayLevel[0.5],
+          BackFaceColor->GrayLevel[0.5],
+          GraphicsColor->GrayLevel[0.5],
+          FontSize->10,
+          FontColor->GrayLevel[0.5]], {6, -0.3}], InsetBox[
+         StyleBox["7",
+          StripOnInput->False,
+          LineColor->GrayLevel[0.5],
+          FrontFaceColor->GrayLevel[0.5],
+          BackFaceColor->GrayLevel[0.5],
+          GraphicsColor->GrayLevel[0.5],
+          FontSize->10,
+          FontColor->GrayLevel[0.5]], {7, -0.3}], InsetBox[
+         StyleBox["8",
+          StripOnInput->False,
+          LineColor->GrayLevel[0.5],
+          FrontFaceColor->GrayLevel[0.5],
+          BackFaceColor->GrayLevel[0.5],
+          GraphicsColor->GrayLevel[0.5],
+          FontSize->10,
+          FontColor->GrayLevel[0.5]], {8, -0.3}], InsetBox[
+         StyleBox["9",
+          StripOnInput->False,
+          LineColor->GrayLevel[0.5],
+          FrontFaceColor->GrayLevel[0.5],
+          BackFaceColor->GrayLevel[0.5],
+          GraphicsColor->GrayLevel[0.5],
+          FontSize->10,
+          FontColor->GrayLevel[0.5]], {9, -0.3}], InsetBox[
+         StyleBox["10",
+          StripOnInput->False,
+          LineColor->GrayLevel[0.5],
+          FrontFaceColor->GrayLevel[0.5],
+          BackFaceColor->GrayLevel[0.5],
+          GraphicsColor->GrayLevel[0.5],
+          FontSize->10,
+          FontColor->GrayLevel[0.5]], {10, -0.3}], InsetBox[
+         StyleBox["11",
+          StripOnInput->False,
+          LineColor->GrayLevel[0.5],
+          FrontFaceColor->GrayLevel[0.5],
+          BackFaceColor->GrayLevel[0.5],
+          GraphicsColor->GrayLevel[0.5],
+          FontSize->10,
+          FontColor->GrayLevel[0.5]], {11, -0.3}]}, {InsetBox[
+         StyleBox[
+          RowBox[{"-", "11"}],
+          StripOnInput->False,
+          LineColor->GrayLevel[0.5],
+          FrontFaceColor->GrayLevel[0.5],
+          BackFaceColor->GrayLevel[0.5],
+          GraphicsColor->GrayLevel[0.5],
+          FontSize->10,
+          FontColor->GrayLevel[0.5]], {-0.3, -11}], InsetBox[
+         StyleBox[
+          RowBox[{"-", "10"}],
+          StripOnInput->False,
+          LineColor->GrayLevel[0.5],
+          FrontFaceColor->GrayLevel[0.5],
+          BackFaceColor->GrayLevel[0.5],
+          GraphicsColor->GrayLevel[0.5],
+          FontSize->10,
+          FontColor->GrayLevel[0.5]], {-0.3, -10}], InsetBox[
+         StyleBox[
+          RowBox[{"-", "9"}],
+          StripOnInput->False,
+          LineColor->GrayLevel[0.5],
+          FrontFaceColor->GrayLevel[0.5],
+          BackFaceColor->GrayLevel[0.5],
+          GraphicsColor->GrayLevel[0.5],
+          FontSize->10,
+          FontColor->GrayLevel[0.5]], {-0.3, -9}], InsetBox[
+         StyleBox[
+          RowBox[{"-", "8"}],
+          StripOnInput->False,
+          LineColor->GrayLevel[0.5],
+          FrontFaceColor->GrayLevel[0.5],
+          BackFaceColor->GrayLevel[0.5],
+          GraphicsColor->GrayLevel[0.5],
+          FontSize->10,
+          FontColor->GrayLevel[0.5]], {-0.3, -8}], InsetBox[
+         StyleBox[
+          RowBox[{"-", "7"}],
+          StripOnInput->False,
+          LineColor->GrayLevel[0.5],
+          FrontFaceColor->GrayLevel[0.5],
+          BackFaceColor->GrayLevel[0.5],
+          GraphicsColor->GrayLevel[0.5],
+          FontSize->10,
+          FontColor->GrayLevel[0.5]], {-0.3, -7}], InsetBox[
+         StyleBox[
+          RowBox[{"-", "6"}],
+          StripOnInput->False,
+          LineColor->GrayLevel[0.5],
+          FrontFaceColor->GrayLevel[0.5],
+          BackFaceColor->GrayLevel[0.5],
+          GraphicsColor->GrayLevel[0.5],
+          FontSize->10,
+          FontColor->GrayLevel[0.5]], {-0.3, -6}], InsetBox[
+         StyleBox[
+          RowBox[{"-", "5"}],
+          StripOnInput->False,
+          LineColor->GrayLevel[0.5],
+          FrontFaceColor->GrayLevel[0.5],
+          BackFaceColor->GrayLevel[0.5],
+          GraphicsColor->GrayLevel[0.5],
+          FontSize->10,
+          FontColor->GrayLevel[0.5]], {-0.3, -5}], InsetBox[
+         StyleBox[
+          RowBox[{"-", "4"}],
+          StripOnInput->False,
+          LineColor->GrayLevel[0.5],
+          FrontFaceColor->GrayLevel[0.5],
+          BackFaceColor->GrayLevel[0.5],
+          GraphicsColor->GrayLevel[0.5],
+          FontSize->10,
+          FontColor->GrayLevel[0.5]], {-0.3, -4}], InsetBox[
+         StyleBox[
+          RowBox[{"-", "3"}],
+          StripOnInput->False,
+          LineColor->GrayLevel[0.5],
+          FrontFaceColor->GrayLevel[0.5],
+          BackFaceColor->GrayLevel[0.5],
+          GraphicsColor->GrayLevel[0.5],
+          FontSize->10,
+          FontColor->GrayLevel[0.5]], {-0.3, -3}], InsetBox[
+         StyleBox[
+          RowBox[{"-", "2"}],
+          StripOnInput->False,
+          LineColor->GrayLevel[0.5],
+          FrontFaceColor->GrayLevel[0.5],
+          BackFaceColor->GrayLevel[0.5],
+          GraphicsColor->GrayLevel[0.5],
+          FontSize->10,
+          FontColor->GrayLevel[0.5]], {-0.3, -2}], InsetBox[
+         StyleBox[
+          RowBox[{"-", "1"}],
+          StripOnInput->False,
+          LineColor->GrayLevel[0.5],
+          FrontFaceColor->GrayLevel[0.5],
+          BackFaceColor->GrayLevel[0.5],
+          GraphicsColor->GrayLevel[0.5],
+          FontSize->10,
+          FontColor->GrayLevel[0.5]], {-0.3, -1}], InsetBox[
+         StyleBox["0",
+          StripOnInput->False,
+          LineColor->GrayLevel[0.5],
+          FrontFaceColor->GrayLevel[0.5],
+          BackFaceColor->GrayLevel[0.5],
+          GraphicsColor->GrayLevel[0.5],
+          FontSize->10,
+          FontColor->GrayLevel[0.5]], {-0.3, 0}], InsetBox[
+         StyleBox["1",
+          StripOnInput->False,
+          LineColor->GrayLevel[0.5],
+          FrontFaceColor->GrayLevel[0.5],
+          BackFaceColor->GrayLevel[0.5],
+          GraphicsColor->GrayLevel[0.5],
+          FontSize->10,
+          FontColor->GrayLevel[0.5]], {-0.3, 1}], InsetBox[
+         StyleBox["2",
+          StripOnInput->False,
+          LineColor->GrayLevel[0.5],
+          FrontFaceColor->GrayLevel[0.5],
+          BackFaceColor->GrayLevel[0.5],
+          GraphicsColor->GrayLevel[0.5],
+          FontSize->10,
+          FontColor->GrayLevel[0.5]], {-0.3, 2}], InsetBox[
+         StyleBox["3",
+          StripOnInput->False,
+          LineColor->GrayLevel[0.5],
+          FrontFaceColor->GrayLevel[0.5],
+          BackFaceColor->GrayLevel[0.5],
+          GraphicsColor->GrayLevel[0.5],
+          FontSize->10,
+          FontColor->GrayLevel[0.5]], {-0.3, 3}], InsetBox[
+         StyleBox["4",
+          StripOnInput->False,
+          LineColor->GrayLevel[0.5],
+          FrontFaceColor->GrayLevel[0.5],
+          BackFaceColor->GrayLevel[0.5],
+          GraphicsColor->GrayLevel[0.5],
+          FontSize->10,
+          FontColor->GrayLevel[0.5]], {-0.3, 4}], InsetBox[
+         StyleBox["5",
+          StripOnInput->False,
+          LineColor->GrayLevel[0.5],
+          FrontFaceColor->GrayLevel[0.5],
+          BackFaceColor->GrayLevel[0.5],
+          GraphicsColor->GrayLevel[0.5],
+          FontSize->10,
+          FontColor->GrayLevel[0.5]], {-0.3, 5}], InsetBox[
+         StyleBox["6",
+          StripOnInput->False,
+          LineColor->GrayLevel[0.5],
+          FrontFaceColor->GrayLevel[0.5],
+          BackFaceColor->GrayLevel[0.5],
+          GraphicsColor->GrayLevel[0.5],
+          FontSize->10,
+          FontColor->GrayLevel[0.5]], {-0.3, 6}], InsetBox[
+         StyleBox["7",
+          StripOnInput->False,
+          LineColor->GrayLevel[0.5],
+          FrontFaceColor->GrayLevel[0.5],
+          BackFaceColor->GrayLevel[0.5],
+          GraphicsColor->GrayLevel[0.5],
+          FontSize->10,
+          FontColor->GrayLevel[0.5]], {-0.3, 7}], InsetBox[
+         StyleBox["8",
+          StripOnInput->False,
+          LineColor->GrayLevel[0.5],
+          FrontFaceColor->GrayLevel[0.5],
+          BackFaceColor->GrayLevel[0.5],
+          GraphicsColor->GrayLevel[0.5],
+          FontSize->10,
+          FontColor->GrayLevel[0.5]], {-0.3, 8}], InsetBox[
+         StyleBox["9",
+          StripOnInput->False,
+          LineColor->GrayLevel[0.5],
+          FrontFaceColor->GrayLevel[0.5],
+          BackFaceColor->GrayLevel[0.5],
+          GraphicsColor->GrayLevel[0.5],
+          FontSize->10,
+          FontColor->GrayLevel[0.5]], {-0.3, 9}], InsetBox[
+         StyleBox["10",
+          StripOnInput->False,
+          LineColor->GrayLevel[0.5],
+          FrontFaceColor->GrayLevel[0.5],
+          BackFaceColor->GrayLevel[0.5],
+          GraphicsColor->GrayLevel[0.5],
+          FontSize->10,
+          FontColor->GrayLevel[0.5]], {-0.3, 10}], InsetBox[
+         StyleBox["11",
+          StripOnInput->False,
+          LineColor->GrayLevel[0.5],
+          FrontFaceColor->GrayLevel[0.5],
+          BackFaceColor->GrayLevel[0.5],
+          GraphicsColor->GrayLevel[0.5],
+          FontSize->10,
+          FontColor->GrayLevel[0.5]], {-0.3, 11}]}}}}}},
+  AspectRatio->1,
+  ImagePadding->20,
+  ImageSize->500,
+  PlotRange->{{-11, 11}, {-11, 11}}]], "Print",
+ CellChangeTimes->{3.953945537778078*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"0806e14d-922d-42a4-bf7f-10fdfeda83be"],
+
+Cell[BoxData[
+ StyleBox["\<\"\\nLEGENDA:\"\>",
+  StripOnInput->False,
+  FontSize->14,
+  FontWeight->Bold]], "Print",
+ CellChangeTimes->{3.953945537781114*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"8a94aa31-aecd-43f2-9505-9da63070b83a"],
+
+Cell[BoxData["\<\"\[Bullet] Modr\[EAcute] body a \[CHacek]iary: P\[OHat]vodn\
+\[YAcute] \[SHacek]tvorec\"\>"], "Print",
+ CellChangeTimes->{3.953945537781389*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"2cb69601-c9a0-47d3-aa4f-26e34a219946"],
+
+Cell[BoxData["\<\"\[Bullet] \[CapitalCHacek]erven\[EAcute] body a \
+\[CHacek]iary: Posunut\[YAcute] \[SHacek]tvorec\"\>"], "Print",
+ CellChangeTimes->{3.9539455377816763`*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"3c776c33-0ca8-4c31-8843-46e6903d35cf"],
+
+Cell[BoxData["\<\"\[Bullet] Zelen\[AAcute] \[SHacek]\[IAcute]pka: Vektor \
+posunu\"\>"], "Print",
+ CellChangeTimes->{3.953945537781955*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"5e51e93f-d3f5-44c4-bdd7-b10a311f0f0f"],
+
+Cell[BoxData["\<\"\[Bullet] Zelen\[EAcute] preru\[SHacek]ovan\[EAcute] \
+\[CHacek]iary: Posun jednotliv\[YAcute]ch vrcholov\"\>"], "Print",
+ CellChangeTimes->{3.95394553778223*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"e168c111-5c11-43d2-842a-1cbc9ab35c08"],
+
+Cell[BoxData["\<\"\[Bullet] Mrie\[ZHacek]ka: S\[UAcute]radnicov\[YAcute] syst\
+\[EAcute]m\"\>"], "Print",
+ CellChangeTimes->{3.9539455377825117`*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"25824cd0-ff76-45ae-94e6-63aedc52e71f"],
+
+Cell[BoxData[
+ StyleBox["\<\"\\nP\[OHat]vodn\[EAcute] vrcholy (modr\[AAcute]):\"\>",
+  StripOnInput->False,
+  FontWeight->Bold]], "Print",
+ CellChangeTimes->{3.953945537782786*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"57998566-ca66-45de-9d45-b9a299e577a3"],
+
+Cell[BoxData[
+ TemplateBox[{
+   StyleBox["\"Vrchol A: \"", 
+    RGBColor[0.1, 0.1, 1], StripOnInput -> False], 
+   RowBox[{"{", 
+     RowBox[{
+       RowBox[{"-", "1"}], ",", 
+       RowBox[{"-", "6"}]}], "}"}]},
+  "RowDefault"]], "Print",
+ CellChangeTimes->{3.953945537783079*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"30862997-b060-4cdf-9372-50c7f85e9dc7"],
+
+Cell[BoxData[
+ TemplateBox[{
+   StyleBox["\"Vrchol B: \"", 
+    RGBColor[0.1, 0.1, 1], StripOnInput -> False], 
+   RowBox[{"{", 
+     RowBox[{"3", ",", 
+       RowBox[{"-", "6"}]}], "}"}]},
+  "RowDefault"]], "Print",
+ CellChangeTimes->{3.953945537783663*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"291a950f-d581-4f0c-9533-5b5a8ba9c8b6"],
+
+Cell[BoxData[
+ TemplateBox[{
+   StyleBox["\"Vrchol C: \"", 
+    RGBColor[0.1, 0.1, 1], StripOnInput -> False], 
+   RowBox[{"{", 
+     RowBox[{"3", ",", 
+       RowBox[{"-", "2"}]}], "}"}]},
+  "RowDefault"]], "Print",
+ CellChangeTimes->{3.953945537783979*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"25e17172-3c40-4246-afef-631b2cbdc3d4"],
+
+Cell[BoxData[
+ TemplateBox[{
+   StyleBox["\"Vrchol D: \"", 
+    RGBColor[0.1, 0.1, 1], StripOnInput -> False], 
+   RowBox[{"{", 
+     RowBox[{
+       RowBox[{"-", "1"}], ",", 
+       RowBox[{"-", "2"}]}], "}"}]},
+  "RowDefault"]], "Print",
+ CellChangeTimes->{3.9539455377842903`*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"cc502ab8-3443-43c8-bed2-f25fa91601b4"],
+
+Cell[BoxData[
+ StyleBox["\<\"\\nV\[YAcute]sledn\[EAcute] vrcholy (\[CHacek]erven\[AAcute]):\
+\"\>",
+  StripOnInput->False,
+  FontWeight->Bold]], "Print",
+ CellChangeTimes->{3.953945537784605*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"29fff83e-cfb2-4de5-baaa-bdaa6d0f233f"],
+
+Cell[BoxData[
+ TemplateBox[{
+   StyleBox["\"Vrchol A': \"", 
+    RGBColor[1, 0.1, 0.1], StripOnInput -> False], 
+   RowBox[{"{", 
+     RowBox[{
+       RowBox[{"-", "4"}], ",", 
+       RowBox[{"-", "1"}]}], "}"}]},
+  "RowDefault"]], "Print",
+ CellChangeTimes->{3.953945537784881*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"3c60d107-2afc-433f-9b7a-6467a78f9b32"],
+
+Cell[BoxData[
+ TemplateBox[{
+   StyleBox["\"Vrchol B': \"", 
+    RGBColor[1, 0.1, 0.1], StripOnInput -> False], 
+   RowBox[{"{", 
+     RowBox[{"0", ",", 
+       RowBox[{"-", "1"}]}], "}"}]},
+  "RowDefault"]], "Print",
+ CellChangeTimes->{3.953945537785214*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"06d067f1-b38f-4c1b-a39d-aa2ed9c55ff4"],
+
+Cell[BoxData[
+ TemplateBox[{
+   StyleBox["\"Vrchol C': \"", 
+    RGBColor[1, 0.1, 0.1], StripOnInput -> False], 
+   RowBox[{"{", 
+     RowBox[{"0", ",", "3"}], "}"}]},
+  "RowDefault"]], "Print",
+ CellChangeTimes->{3.953945537785521*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"28aa96b2-b772-4ca8-bca1-b52072998f9d"],
+
+Cell[BoxData[
+ TemplateBox[{
+   StyleBox["\"Vrchol D': \"", 
+    RGBColor[1, 0.1, 0.1], StripOnInput -> False], 
+   RowBox[{"{", 
+     RowBox[{
+       RowBox[{"-", "4"}], ",", "3"}], "}"}]},
+  "RowDefault"]], "Print",
+ CellChangeTimes->{3.9539455377858267`*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"9602ec84-e86e-4751-95d1-36b856d937cb"],
+
+Cell[BoxData[
+ StyleBox["\<\"\\nInverzn\[AAcute] transform\[AAcute]cia:\"\>",
+  StripOnInput->False,
+  FontWeight->Bold]], "Print",
+ CellChangeTimes->{3.953945537786138*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"ccc73095-e6c0-494c-b14d-3d7799766a21"],
+
+Cell[BoxData["\<\"Pre vr\[AAcute]tenie do p\[OHat]vodn\[EAcute]ho stavu pou\
+\[ZHacek]ite vektor posunu:\"\>"], "Print",
+ CellChangeTimes->{3.9539455377864017`*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"fd3edfbe-706b-42f4-b43e-64b9e9f1bfd8"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"\[CapitalDelta]' = [\"\>", "\[InvisibleSpace]", "3", 
+   "\[InvisibleSpace]", "\<\", \"\>", "\[InvisibleSpace]", 
+   RowBox[{"-", "5"}], 
+   "\[InvisibleSpace]", "\<\"] (opa\[CHacek]n\[YAcute] vektor)\"\>"}],
+  SequenceForm[
+  "\[CapitalDelta]' = [", 3, ", ", -5, "] (opa\[CHacek]n\[YAcute] vektor)"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.953945537786686*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"84fb3d9e-d95f-456b-b376-1b3f6a27fe4d"],
+
+Cell[BoxData[
+ StyleBox["\<\"\\nPOSTUPN\[CapitalYAcute] \
+V\[CapitalYAcute]PO\[CapitalCHacek]ET:\"\>",
+  StripOnInput->False,
+  FontSize->16,
+  FontWeight->Bold]], "Print",
+ CellChangeTimes->{3.953945537786978*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"cac63c9a-8600-4628-a1ba-bda85a0fedf8"],
+
+Cell[BoxData[
+ StyleBox["\<\"\\nP\[OHat]vodn\[YAcute] \[SHacek]tvorec ABCD:\"\>",
+  StripOnInput->False,
+  FontSize->14,
+  FontWeight->Bold]], "Print",
+ CellChangeTimes->{3.95394553778725*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"1cb4f6f1-b614-4307-a2cb-28dd3a387b38"],
+
+Cell[BoxData["\<\"Vrcholy:\"\>"], "Print",
+ CellChangeTimes->{3.95394553778751*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"99ba36a8-46c6-432d-b6cf-c5f5ccb289e2"],
+
+Cell[BoxData[
+ TagBox[
+  RowBox[{"(", "\[NoBreak]", GridBox[{
+     {
+      StyleBox[
+       RowBox[{"-", "1"}],
+       StripOnInput->False,
+       LineColor->RGBColor[0, 0, 1],
+       FrontFaceColor->RGBColor[0, 0, 1],
+       BackFaceColor->RGBColor[0, 0, 1],
+       GraphicsColor->RGBColor[0, 0, 1],
+       FontColor->RGBColor[0, 0, 1]], 
+      StyleBox[
+       RowBox[{"-", "6"}],
+       StripOnInput->False,
+       LineColor->RGBColor[0, 0, 1],
+       FrontFaceColor->RGBColor[0, 0, 1],
+       BackFaceColor->RGBColor[0, 0, 1],
+       GraphicsColor->RGBColor[0, 0, 1],
+       FontColor->RGBColor[0, 0, 1]]},
+     {
+      StyleBox["3",
+       StripOnInput->False,
+       LineColor->RGBColor[0, 0, 1],
+       FrontFaceColor->RGBColor[0, 0, 1],
+       BackFaceColor->RGBColor[0, 0, 1],
+       GraphicsColor->RGBColor[0, 0, 1],
+       FontColor->RGBColor[0, 0, 1]], 
+      StyleBox[
+       RowBox[{"-", "6"}],
+       StripOnInput->False,
+       LineColor->RGBColor[0, 0, 1],
+       FrontFaceColor->RGBColor[0, 0, 1],
+       BackFaceColor->RGBColor[0, 0, 1],
+       GraphicsColor->RGBColor[0, 0, 1],
+       FontColor->RGBColor[0, 0, 1]]},
+     {
+      StyleBox["3",
+       StripOnInput->False,
+       LineColor->RGBColor[0, 0, 1],
+       FrontFaceColor->RGBColor[0, 0, 1],
+       BackFaceColor->RGBColor[0, 0, 1],
+       GraphicsColor->RGBColor[0, 0, 1],
+       FontColor->RGBColor[0, 0, 1]], 
+      StyleBox[
+       RowBox[{"-", "2"}],
+       StripOnInput->False,
+       LineColor->RGBColor[0, 0, 1],
+       FrontFaceColor->RGBColor[0, 0, 1],
+       BackFaceColor->RGBColor[0, 0, 1],
+       GraphicsColor->RGBColor[0, 0, 1],
+       FontColor->RGBColor[0, 0, 1]]},
+     {
+      StyleBox[
+       RowBox[{"-", "1"}],
+       StripOnInput->False,
+       LineColor->RGBColor[0, 0, 1],
+       FrontFaceColor->RGBColor[0, 0, 1],
+       BackFaceColor->RGBColor[0, 0, 1],
+       GraphicsColor->RGBColor[0, 0, 1],
+       FontColor->RGBColor[0, 0, 1]], 
+      StyleBox[
+       RowBox[{"-", "2"}],
+       StripOnInput->False,
+       LineColor->RGBColor[0, 0, 1],
+       FrontFaceColor->RGBColor[0, 0, 1],
+       BackFaceColor->RGBColor[0, 0, 1],
+       GraphicsColor->RGBColor[0, 0, 1],
+       FontColor->RGBColor[0, 0, 1]]}
+    },
+    GridBoxAlignment->{"Columns" -> {{Center}}, "Rows" -> {{Baseline}}},
+    GridBoxSpacings->{"Columns" -> {
+        Offset[0.27999999999999997`], {
+         Offset[0.7]}, 
+        Offset[0.27999999999999997`]}, "Rows" -> {
+        Offset[0.2], {
+         Offset[0.4]}, 
+        Offset[0.2]}}], "\[NoBreak]", ")"}],
+  Function[BoxForm`e$, 
+   MatrixForm[BoxForm`e$]]]], "Print",
+ CellChangeTimes->{3.953945537787847*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"ac21849f-4e69-4a44-a7e7-646a2b29dc31"],
+
+Cell[BoxData[
+ StyleBox["\<\"Vlastnosti \[SHacek]tvorca:\"\>",
+  StripOnInput->False,
+  FontWeight->Bold]], "Print",
+ CellChangeTimes->{3.953945537788124*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"7029778e-3e33-43e9-bc16-6890ff999ff7"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Obsah: \"\>", "\[InvisibleSpace]", 
+   StyleBox["16",
+    StripOnInput->False,
+    LineColor->RGBColor[0, 0, 1],
+    FrontFaceColor->RGBColor[0, 0, 1],
+    BackFaceColor->RGBColor[0, 0, 1],
+    GraphicsColor->RGBColor[0, 0, 1],
+    FontColor->RGBColor[0, 0, 1]]}],
+  SequenceForm["Obsah: ", 
+   Style[16, 
+    RGBColor[0, 0, 1]]],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9539455377883987`*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"797b1c3f-55b7-4d1a-a0b6-6de0957927cb"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Obvod: \"\>", "\[InvisibleSpace]", 
+   StyleBox["16",
+    StripOnInput->False,
+    LineColor->RGBColor[0, 0, 1],
+    FrontFaceColor->RGBColor[0, 0, 1],
+    BackFaceColor->RGBColor[0, 0, 1],
+    GraphicsColor->RGBColor[0, 0, 1],
+    FontColor->RGBColor[0, 0, 1]]}],
+  SequenceForm["Obvod: ", 
+   Style[16, 
+    RGBColor[0, 0, 1]]],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.95394553778867*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"5e8b22ea-6ad7-4843-81ed-32d7add52ace"],
+
+Cell[BoxData[
+ StyleBox["\<\"\\nPo transform\[AAcute]cii (Posun):\"\>",
+  StripOnInput->False,
+  FontSize->14,
+  FontWeight->Bold]], "Print",
+ CellChangeTimes->{3.953945537788932*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"559b1865-85b3-4f16-ad77-83dce0a4606e"],
+
+Cell[BoxData["\<\"Vrcholy \[SHacek]tvorca A'B'C'D':\"\>"], "Print",
+ CellChangeTimes->{3.953945537789198*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"12729d84-d781-4cc2-ab5f-7f9e5c4fa413"],
+
+Cell[BoxData[
+ TagBox[
+  RowBox[{"(", "\[NoBreak]", GridBox[{
+     {
+      StyleBox[
+       RowBox[{"-", "4"}],
+       StripOnInput->False,
+       LineColor->RGBColor[0.2, 0.6, 0.2],
+       FrontFaceColor->RGBColor[0.2, 0.6, 0.2],
+       BackFaceColor->RGBColor[0.2, 0.6, 0.2],
+       GraphicsColor->RGBColor[0.2, 0.6, 0.2],
+       FontColor->RGBColor[0.2, 0.6, 0.2]], 
+      StyleBox[
+       RowBox[{"-", "1"}],
+       StripOnInput->False,
+       LineColor->RGBColor[0.2, 0.6, 0.2],
+       FrontFaceColor->RGBColor[0.2, 0.6, 0.2],
+       BackFaceColor->RGBColor[0.2, 0.6, 0.2],
+       GraphicsColor->RGBColor[0.2, 0.6, 0.2],
+       FontColor->RGBColor[0.2, 0.6, 0.2]]},
+     {
+      StyleBox["0",
+       StripOnInput->False,
+       LineColor->RGBColor[0.2, 0.6, 0.2],
+       FrontFaceColor->RGBColor[0.2, 0.6, 0.2],
+       BackFaceColor->RGBColor[0.2, 0.6, 0.2],
+       GraphicsColor->RGBColor[0.2, 0.6, 0.2],
+       FontColor->RGBColor[0.2, 0.6, 0.2]], 
+      StyleBox[
+       RowBox[{"-", "1"}],
+       StripOnInput->False,
+       LineColor->RGBColor[0.2, 0.6, 0.2],
+       FrontFaceColor->RGBColor[0.2, 0.6, 0.2],
+       BackFaceColor->RGBColor[0.2, 0.6, 0.2],
+       GraphicsColor->RGBColor[0.2, 0.6, 0.2],
+       FontColor->RGBColor[0.2, 0.6, 0.2]]},
+     {
+      StyleBox["0",
+       StripOnInput->False,
+       LineColor->RGBColor[0.2, 0.6, 0.2],
+       FrontFaceColor->RGBColor[0.2, 0.6, 0.2],
+       BackFaceColor->RGBColor[0.2, 0.6, 0.2],
+       GraphicsColor->RGBColor[0.2, 0.6, 0.2],
+       FontColor->RGBColor[0.2, 0.6, 0.2]], 
+      StyleBox["3",
+       StripOnInput->False,
+       LineColor->RGBColor[0.2, 0.6, 0.2],
+       FrontFaceColor->RGBColor[0.2, 0.6, 0.2],
+       BackFaceColor->RGBColor[0.2, 0.6, 0.2],
+       GraphicsColor->RGBColor[0.2, 0.6, 0.2],
+       FontColor->RGBColor[0.2, 0.6, 0.2]]},
+     {
+      StyleBox[
+       RowBox[{"-", "4"}],
+       StripOnInput->False,
+       LineColor->RGBColor[0.2, 0.6, 0.2],
+       FrontFaceColor->RGBColor[0.2, 0.6, 0.2],
+       BackFaceColor->RGBColor[0.2, 0.6, 0.2],
+       GraphicsColor->RGBColor[0.2, 0.6, 0.2],
+       FontColor->RGBColor[0.2, 0.6, 0.2]], 
+      StyleBox["3",
+       StripOnInput->False,
+       LineColor->RGBColor[0.2, 0.6, 0.2],
+       FrontFaceColor->RGBColor[0.2, 0.6, 0.2],
+       BackFaceColor->RGBColor[0.2, 0.6, 0.2],
+       GraphicsColor->RGBColor[0.2, 0.6, 0.2],
+       FontColor->RGBColor[0.2, 0.6, 0.2]]}
+    },
+    GridBoxAlignment->{"Columns" -> {{Center}}, "Rows" -> {{Baseline}}},
+    GridBoxSpacings->{"Columns" -> {
+        Offset[0.27999999999999997`], {
+         Offset[0.7]}, 
+        Offset[0.27999999999999997`]}, "Rows" -> {
+        Offset[0.2], {
+         Offset[0.4]}, 
+        Offset[0.2]}}], "\[NoBreak]", ")"}],
+  Function[BoxForm`e$, 
+   MatrixForm[BoxForm`e$]]]], "Print",
+ CellChangeTimes->{3.953945537789554*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"3a002e71-eb6f-4fcb-a804-938c00b44622"],
+
+Cell[BoxData[
+ StyleBox["\<\"Vlastnosti \[SHacek]tvorca:\"\>",
+  StripOnInput->False,
+  FontWeight->Bold]], "Print",
+ CellChangeTimes->{3.953945537789824*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"8b8bf718-4a0f-4cae-bdfd-b2fd049c638c"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Obsah: \"\>", "\[InvisibleSpace]", 
+   StyleBox["16",
+    StripOnInput->False,
+    LineColor->RGBColor[0.2, 0.6, 0.2],
+    FrontFaceColor->RGBColor[0.2, 0.6, 0.2],
+    BackFaceColor->RGBColor[0.2, 0.6, 0.2],
+    GraphicsColor->RGBColor[0.2, 0.6, 0.2],
+    FontColor->RGBColor[0.2, 0.6, 0.2]]}],
+  SequenceForm["Obsah: ", 
+   Style[16, 
+    RGBColor[0.2, 0.6, 0.2]]],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9539455377900877`*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"12a1fadd-8b0a-4487-a7c4-e4388b9eae06"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Obvod: \"\>", "\[InvisibleSpace]", 
+   StyleBox["16",
+    StripOnInput->False,
+    LineColor->RGBColor[0.2, 0.6, 0.2],
+    FrontFaceColor->RGBColor[0.2, 0.6, 0.2],
+    BackFaceColor->RGBColor[0.2, 0.6, 0.2],
+    GraphicsColor->RGBColor[0.2, 0.6, 0.2],
+    FontColor->RGBColor[0.2, 0.6, 0.2]]}],
+  SequenceForm["Obvod: ", 
+   Style[16, 
+    RGBColor[0.2, 0.6, 0.2]]],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.953945537790354*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"d4707b00-ad6e-41b6-88e9-07c14be88f6a"],
+
+Cell[BoxData[
+ StyleBox["\<\"\\nS\[CapitalUAcute]HRNN\[CapitalAAcute] VIZUALIZ\
+\[CapitalAAcute]CIA:\"\>",
+  StripOnInput->False,
+  FontSize->16,
+  FontWeight->Bold]], "Print",
+ CellChangeTimes->{3.953945537790613*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"9faab1d4-2d76-4d07-adb6-cb588989ab0c"],
+
+Cell[BoxData[
+ GraphicsBox[{
+   {RGBColor[0.9, 0.9, 0.9], Thickness[
+    Tiny], {LineBox[{{-6., -7}, {5., -7}}], LineBox[{{-6., -6}, {5., -6}}], 
+     LineBox[{{-6., -5}, {5., -5}}], LineBox[{{-6., -4}, {5., -4}}], 
+     LineBox[{{-6., -3}, {5., -3}}], LineBox[{{-6., -2}, {5., -2}}], 
+     LineBox[{{-6., -1}, {5., -1}}], LineBox[{{-6., 0}, {5., 0}}], 
+     LineBox[{{-6., 1}, {5., 1}}], LineBox[{{-6., 2}, {5., 2}}], 
+     LineBox[{{-6., 3}, {5., 3}}], LineBox[{{-6., 4}, {5., 4}}]}, {
+     LineBox[{{-6, -7.}, {-6, 4.}}], LineBox[{{-5, -7.}, {-5, 4.}}], 
+     LineBox[{{-4, -7.}, {-4, 4.}}], LineBox[{{-3, -7.}, {-3, 4.}}], 
+     LineBox[{{-2, -7.}, {-2, 4.}}], LineBox[{{-1, -7.}, {-1, 4.}}], 
+     LineBox[{{0, -7.}, {0, 4.}}], LineBox[{{1, -7.}, {1, 4.}}], 
+     LineBox[{{2, -7.}, {2, 4.}}], LineBox[{{3, -7.}, {3, 4.}}], 
+     LineBox[{{4, -7.}, {4, 4.}}], LineBox[{{5, -7.}, {5, 4.}}]}}, 
+   {GrayLevel[0], Thickness[0.003], Arrowheads[0.02], 
+    ArrowBox[{{-6., 0}, {5., 0}}], ArrowBox[{{0, -7.}, {0, 4.}}], InsetBox[
+     StyleBox["\<\"x\"\>",
+      StripOnInput->False,
+      FontSize->14,
+      FontWeight->Bold], {4.7, -0.3}], InsetBox[
+     StyleBox["\<\"y\"\>",
+      StripOnInput->False,
+      FontSize->14,
+      FontWeight->Bold], {-0.3, 3.7}], {{LineBox[{{-6, -0.1}, {-6, 0.1}}], 
+      InsetBox[
+       StyleBox[
+        RowBox[{"-", "6"}],
+        StripOnInput->False,
+        FontSize->10], {-6, -0.3}]}, {LineBox[{{-5, -0.1}, {-5, 0.1}}], 
+      InsetBox[
+       StyleBox[
+        RowBox[{"-", "5"}],
+        StripOnInput->False,
+        FontSize->10], {-5, -0.3}]}, {LineBox[{{-4, -0.1}, {-4, 0.1}}], 
+      InsetBox[
+       StyleBox[
+        RowBox[{"-", "4"}],
+        StripOnInput->False,
+        FontSize->10], {-4, -0.3}]}, {LineBox[{{-3, -0.1}, {-3, 0.1}}], 
+      InsetBox[
+       StyleBox[
+        RowBox[{"-", "3"}],
+        StripOnInput->False,
+        FontSize->10], {-3, -0.3}]}, {LineBox[{{-2, -0.1}, {-2, 0.1}}], 
+      InsetBox[
+       StyleBox[
+        RowBox[{"-", "2"}],
+        StripOnInput->False,
+        FontSize->10], {-2, -0.3}]}, {LineBox[{{-1, -0.1}, {-1, 0.1}}], 
+      InsetBox[
+       StyleBox[
+        RowBox[{"-", "1"}],
+        StripOnInput->False,
+        FontSize->10], {-1, -0.3}]}, {LineBox[{{0, -0.1}, {0, 0.1}}], InsetBox[
+       StyleBox["0",
+        StripOnInput->False,
+        FontSize->10], {0, -0.3}]}, {LineBox[{{1, -0.1}, {1, 0.1}}], 
+      InsetBox[
+       StyleBox["1",
+        StripOnInput->False,
+        FontSize->10], {1, -0.3}]}, {LineBox[{{2, -0.1}, {2, 0.1}}], 
+      InsetBox[
+       StyleBox["2",
+        StripOnInput->False,
+        FontSize->10], {2, -0.3}]}, {LineBox[{{3, -0.1}, {3, 0.1}}], 
+      InsetBox[
+       StyleBox["3",
+        StripOnInput->False,
+        FontSize->10], {3, -0.3}]}, {LineBox[{{4, -0.1}, {4, 0.1}}], 
+      InsetBox[
+       StyleBox["4",
+        StripOnInput->False,
+        FontSize->10], {4, -0.3}]}, {LineBox[{{5, -0.1}, {5, 0.1}}], 
+      InsetBox[
+       StyleBox["5",
+        StripOnInput->False,
+        FontSize->10], {5, -0.3}]}}, {{LineBox[{{-0.1, -7}, {0.1, -7}}], 
+      InsetBox[
+       StyleBox[
+        RowBox[{"-", "7"}],
+        StripOnInput->False,
+        FontSize->10], {-0.3, -7}]}, {LineBox[{{-0.1, -6}, {0.1, -6}}], 
+      InsetBox[
+       StyleBox[
+        RowBox[{"-", "6"}],
+        StripOnInput->False,
+        FontSize->10], {-0.3, -6}]}, {LineBox[{{-0.1, -5}, {0.1, -5}}], 
+      InsetBox[
+       StyleBox[
+        RowBox[{"-", "5"}],
+        StripOnInput->False,
+        FontSize->10], {-0.3, -5}]}, {LineBox[{{-0.1, -4}, {0.1, -4}}], 
+      InsetBox[
+       StyleBox[
+        RowBox[{"-", "4"}],
+        StripOnInput->False,
+        FontSize->10], {-0.3, -4}]}, {LineBox[{{-0.1, -3}, {0.1, -3}}], 
+      InsetBox[
+       StyleBox[
+        RowBox[{"-", "3"}],
+        StripOnInput->False,
+        FontSize->10], {-0.3, -3}]}, {LineBox[{{-0.1, -2}, {0.1, -2}}], 
+      InsetBox[
+       StyleBox[
+        RowBox[{"-", "2"}],
+        StripOnInput->False,
+        FontSize->10], {-0.3, -2}]}, {LineBox[{{-0.1, -1}, {0.1, -1}}], 
+      InsetBox[
+       StyleBox[
+        RowBox[{"-", "1"}],
+        StripOnInput->False,
+        FontSize->10], {-0.3, -1}]}, {LineBox[{{-0.1, 0}, {0.1, 0}}], InsetBox[
+       StyleBox["0",
+        StripOnInput->False,
+        FontSize->10], {-0.3, 0}]}, {LineBox[{{-0.1, 1}, {0.1, 1}}], 
+      InsetBox[
+       StyleBox["1",
+        StripOnInput->False,
+        FontSize->10], {-0.3, 1}]}, {LineBox[{{-0.1, 2}, {0.1, 2}}], 
+      InsetBox[
+       StyleBox["2",
+        StripOnInput->False,
+        FontSize->10], {-0.3, 2}]}, {LineBox[{{-0.1, 3}, {0.1, 3}}], 
+      InsetBox[
+       StyleBox["3",
+        StripOnInput->False,
+        FontSize->10], {-0.3, 3}]}, {LineBox[{{-0.1, 4}, {0.1, 4}}], 
+      InsetBox[
+       StyleBox["4",
+        StripOnInput->False,
+        FontSize->10], {-0.3, 4}]}}, 
+    {RGBColor[0.2, 0.7, 0.3], Thickness[0.002], Opacity[0.3], 
+     Dashing[{Small, Small}], LineBox[{{-1, -6}, {-4, -1}}], 
+     LineBox[{{3, -6}, {0, -1}}], LineBox[{{3, -2}, {0, 3}}], 
+     LineBox[{{-1, -2}, {-4, 3}}]}, 
+    {RGBColor[0, 0.4, 0.8], Thickness[0.005], Opacity[0.9], 
+     LineBox[{{-1, -6}, {3, -6}, {3, -2}, {-1, -2}, {-1, -6}}]}, 
+    {RGBColor[0.2, 0.7, 0.3], Thickness[0.005], Opacity[0.9], 
+     LineBox[{{-4, -1}, {0, -1}, {0, 3}, {-4, 3}, {-4, -1}}]}, {{
+      {GrayLevel[1], DiskBox[{-1, -6}, 0.15]}, 
+      {RGBColor[0, 0.4, 0.8], DiskBox[{-1, -6}, 0.12]}}, {
+      {GrayLevel[1], DiskBox[{3, -6}, 0.15]}, 
+      {RGBColor[0, 0.4, 0.8], DiskBox[{3, -6}, 0.12]}}, {
+      {GrayLevel[1], DiskBox[{3, -2}, 0.15]}, 
+      {RGBColor[0, 0.4, 0.8], DiskBox[{3, -2}, 0.12]}}, {
+      {GrayLevel[1], DiskBox[{-1, -2}, 0.15]}, 
+      {RGBColor[0, 0.4, 0.8], DiskBox[{-1, -2}, 0.12]}}}, {{
+      {GrayLevel[1], DiskBox[{-4, -1}, 0.15]}, 
+      {RGBColor[0.2, 0.7, 0.3], DiskBox[{-4, -1}, 0.12]}}, {
+      {GrayLevel[1], DiskBox[{0, -1}, 0.15]}, 
+      {RGBColor[0.2, 0.7, 0.3], DiskBox[{0, -1}, 0.12]}}, {
+      {GrayLevel[1], DiskBox[{0, 3}, 0.15]}, 
+      {RGBColor[0.2, 0.7, 0.3], DiskBox[{0, 3}, 0.12]}}, {
+      {GrayLevel[1], DiskBox[{-4, 3}, 0.15]}, 
+      {RGBColor[0.2, 0.7, 0.3], DiskBox[{-4, 3}, 0.12]}}}, {{
+      {GrayLevel[1], 
+       DiskBox[{-1.4290276819923062`, -6.429027681992307}, 0.2]}, 
+      {RGBColor[0, 0.4, 0.8], InsetBox[
+        StyleBox["\<\"A\"\>",
+         StripOnInput->False,
+         FontSize->14,
+         FontWeight->Bold], {-1.4290276819923062, -6.429027681992307}]}}, {
+      {GrayLevel[1], DiskBox[{3.4443509963462344`, -6.444350996346235}, 0.2]}, 
+      {RGBColor[0, 0.4, 0.8], InsetBox[
+        StyleBox["\<\"B\"\>",
+         StripOnInput->False,
+         FontSize->14,
+         FontWeight->Bold], {3.4443509963462344, -6.444350996346235}]}}, {
+      {GrayLevel[1], DiskBox[{3.368336006248868, -2.368336006248868}, 0.2]}, 
+      {RGBColor[0, 0.4, 0.8], InsetBox[
+        StyleBox["\<\"C\"\>",
+         StripOnInput->False,
+         FontSize->14,
+         FontWeight->Bold], {3.368336006248868, -2.368336006248868}]}}, {
+      {GrayLevel[1], 
+       DiskBox[{-1.3347836654487448`, -2.334783665448745}, 0.2]}, 
+      {RGBColor[0, 0.4, 0.8], InsetBox[
+        StyleBox["\<\"D\"\>",
+         StripOnInput->False,
+         FontSize->14,
+         FontWeight->Bold], {-1.3347836654487448, -2.334783665448745}]}}, {
+      {GrayLevel[1], 
+       DiskBox[{-4.381016087827633, -1.3810160878276327`}, 0.2]}, 
+      {RGBColor[0.2, 0.7, 0.3], InsetBox[
+        StyleBox["\<\"A'\"\>",
+         StripOnInput->False,
+         FontSize->14,
+         FontWeight->Bold], {-4.381016087827633, -1.3810160878276327}]}}, {
+      {GrayLevel[1], DiskBox[{-0.3045, -1.3045}, 0.2]}, 
+      {RGBColor[0.2, 0.7, 0.3], InsetBox[
+        StyleBox["\<\"B'\"\>",
+         StripOnInput->False,
+         FontSize->14,
+         FontWeight->Bold], {-0.3045, -1.3045}]}}, {
+      {GrayLevel[1], DiskBox[{-0.3535, 3.3535}, 0.2]}, 
+      {RGBColor[0.2, 0.7, 0.3], InsetBox[
+        StyleBox["\<\"C'\"\>",
+         StripOnInput->False,
+         FontSize->14,
+         FontWeight->Bold], {-0.3535, 3.3535}]}}, {
+      {GrayLevel[1], DiskBox[{-4.4025, 3.4025}, 0.2]}, 
+      {RGBColor[0.2, 0.7, 0.3], InsetBox[
+        StyleBox["\<\"D'\"\>",
+         StripOnInput->False,
+         FontSize->14,
+         FontWeight->Bold], {-4.4025, 3.4025}]}}}}},
+  AspectRatio->1,
+  Background->GrayLevel[1],
+  ImagePadding->{{40, 40}, {40, 40}},
+  ImageSize->650,
+  Method->{"ShrinkWrap" -> True},
+  PlotLabel->FormBox[
+    StyleBox[
+    "\"Aplik\[AAcute]cia transform\[AAcute]cie \[SHacek]tvorca\"", Bold, 16, 
+     StripOnInput -> False], TraditionalForm],
+  PlotRange->{{-6., 5.}, {-7., 4.}}]], "Print",
+ CellChangeTimes->{3.953945537791829*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"3d650d2e-ebe3-4701-96c0-83dc9331867b"],
+
+Cell[BoxData[
+ StyleBox["\<\"\\nLEGENDA:\"\>",
+  StripOnInput->False,
+  FontSize->16,
+  FontWeight->Bold]], "Print",
+ CellChangeTimes->{3.953945537808415*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"fb5be105-a2f7-4346-b3d9-c0ed96e39fc2"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   StyleBox["\<\"\[Bullet] Modr\[EAcute]\"\>",
+    StripOnInput->False,
+    LineColor->RGBColor[0, 0.4, 0.8],
+    FrontFaceColor->RGBColor[0, 0.4, 0.8],
+    BackFaceColor->RGBColor[0, 0.4, 0.8],
+    GraphicsColor->RGBColor[0, 0.4, 0.8],
+    FontWeight->Bold,
+    FontColor->RGBColor[0, 0.4, 0.8]], 
+   "\[InvisibleSpace]", "\<\" body a \[CHacek]iary: P\[OHat]vodn\[YAcute] \
+\[SHacek]tvorec ABCD\"\>"}],
+  SequenceForm[
+   Style["\[Bullet] Modr\[EAcute]", 
+    RGBColor[0, 0.4, 0.8], Bold], 
+   " body a \[CHacek]iary: P\[OHat]vodn\[YAcute] \[SHacek]tvorec ABCD"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.953945537808681*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"24ff5d85-64cd-464a-a522-fd9e4f0a4513"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   StyleBox["\<\"\[Bullet] Tmavozelen\[EAcute]\"\>",
+    StripOnInput->False,
+    LineColor->RGBColor[0.2, 0.7, 0.3],
+    FrontFaceColor->RGBColor[0.2, 0.7, 0.3],
+    BackFaceColor->RGBColor[0.2, 0.7, 0.3],
+    GraphicsColor->RGBColor[0.2, 0.7, 0.3],
+    FontWeight->Bold,
+    FontColor->RGBColor[0.2, 0.7, 0.3]], 
+   "\[InvisibleSpace]", "\<\" body a \[CHacek]iary: \[CapitalSHacek]tvorec \
+A'B'C'D' po transform\[AAcute]cii (\"\>", "\[InvisibleSpace]", 
+   StyleBox["\<\"Posun\"\>",
+    StripOnInput->False,
+    FontWeight->Bold], "\[InvisibleSpace]", "\<\")\"\>"}],
+  SequenceForm[
+   Style["\[Bullet] Tmavozelen\[EAcute]", 
+    RGBColor[0.2, 0.7, 0.3], Bold], 
+   " body a \[CHacek]iary: \[CapitalSHacek]tvorec A'B'C'D' po transform\
+\[AAcute]cii (", 
+   Style["Posun", Bold], ")"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.953945537808967*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"4ff6ebc0-ca8a-406a-8137-22d3a30c55f4"],
+
+Cell[BoxData[
+ StyleBox["\<\"\\nVykonan\[AAcute] transform\[AAcute]cia:\"\>",
+  StripOnInput->False,
+  FontSize->16,
+  FontWeight->Bold]], "Print",
+ CellChangeTimes->{3.953945537809245*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"6b5ee4b5-7295-4caa-b72e-252d550c386d"],
+
+Cell[BoxData["\<\"Posun\"\>"], "Print",
+ CellChangeTimes->{3.953945537809478*^9},
+ CellLabel->
+  "During evaluation of \
+In[7238]:=",ExpressionUUID->"1484243a-33fe-42ab-8be6-1998c1cbee71"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"-", "1"}], ",", 
+       RowBox[{"-", "6"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"3", ",", 
+       RowBox[{"-", "6"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"3", ",", 
+       RowBox[{"-", "2"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"-", "1"}], ",", 
+       RowBox[{"-", "2"}]}], "}"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"-", "4"}], ",", 
+       RowBox[{"-", "1"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", 
+       RowBox[{"-", "1"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", "3"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"-", "4"}], ",", "3"}], "}"}]}], "}"}], ",", "\<\"Posun\"\>"}],
+   "}"}]], "Output",
+ CellChangeTimes->{{3.953945517212916*^9, 3.953945537809997*^9}},
+ CellLabel->
+  "Out[7238]=",ExpressionUUID->"1c565b27-a914-4ec2-8647-3ac1b7dde641"]
+}, Open  ]]
+},
+WindowSize->{808, 733},
+WindowMargins->{{52, Automatic}, {0, Automatic}},
+FrontEndVersion->"14.1 for Mac OS X ARM (64-bit) (July 16, 2024)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"f4e8d554-8ddf-41c3-bcc8-69ed69a99e14"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[576, 22, 256, 5, 29, "Input",ExpressionUUID->"8aeedb4b-33b2-4c88-a636-a3ccf1ab026e"],
+Cell[CellGroupData[{
+Cell[857, 31, 360, 9, 38, "Print",ExpressionUUID->"4152c286-f15e-4601-9497-e1e509faca2a"],
+Cell[1220, 42, 280, 7, 23, "Print",ExpressionUUID->"9fddad92-3a1d-44b9-96a7-6da1a3dfc87d"],
+Cell[1503, 51, 338, 9, 53, "Print",ExpressionUUID->"53abff7b-0497-45c3-b8e4-ce9e7242c1b5"],
+Cell[1844, 62, 212, 4, 23, "Print",ExpressionUUID->"d0b6f30c-1012-47db-8650-c41ef01f2101"],
+Cell[2059, 68, 2746, 83, 66, "Print",ExpressionUUID->"9dcea388-c40a-488c-8ea1-96072e7e977e"],
+Cell[4808, 153, 265, 7, 23, "Print",ExpressionUUID->"49d2516c-01a3-49b6-8376-519ef0caca24"],
+Cell[5076, 162, 560, 17, 23, "Print",ExpressionUUID->"2ec22eba-f460-4545-87a1-909f30cce360"],
+Cell[5639, 181, 558, 17, 23, "Print",ExpressionUUID->"07aab4c5-1d39-40db-a005-c17e20f25295"],
+Cell[6200, 200, 292, 8, 53, "Print",ExpressionUUID->"fcd7c8ee-dddd-4f72-aa83-4e6d4b2a31b2"],
+Cell[6495, 210, 341, 9, 28, "Print",ExpressionUUID->"cbb1c1ec-9ad5-42c9-8552-50dc0466bdc2"],
+Cell[6839, 221, 278, 7, 23, "Print",ExpressionUUID->"66a87ca2-9e67-4664-b0d2-5a16f6625ef0"],
+Cell[7120, 230, 265, 8, 47, "Print",ExpressionUUID->"020266e0-e333-46a3-8a21-d5f27369c0d5"],
+Cell[7388, 240, 221, 4, 23, "Print",ExpressionUUID->"e88a6e75-bb09-406f-97d8-68d32700a0c8"],
+Cell[7612, 246, 2746, 83, 66, "Print",ExpressionUUID->"434263fb-884b-44a5-9846-e2d88e227514"],
+Cell[10361, 331, 1127, 31, 41, "Print",ExpressionUUID->"40be0db6-8c64-403f-91c0-604e78e83e09"],
+Cell[11491, 364, 275, 5, 41, "Print",ExpressionUUID->"e46529a2-b6c9-4c7a-8c6e-1a2c228038e3"],
+Cell[11769, 371, 2872, 84, 50, "Print",ExpressionUUID->"84244937-a8b5-4bf9-bfe2-7e15ad0b3e94"],
+Cell[14644, 457, 266, 8, 47, "Print",ExpressionUUID->"8011ddff-32b7-40c4-8947-521cfeb9fa7a"],
+Cell[14913, 467, 287, 5, 23, "Print",ExpressionUUID->"3477b0a8-bab6-40a9-b6bc-097e035fbce7"],
+Cell[15203, 474, 275, 7, 23, "Print",ExpressionUUID->"38e8b24c-db86-4c18-b352-80ac68666f14"],
+Cell[15481, 483, 2867, 83, 50, "Print",ExpressionUUID->"6e6b8692-a15b-4b58-9098-28ac97293b53"],
+Cell[18351, 568, 211, 4, 41, "Print",ExpressionUUID->"f537e221-9127-45fc-beef-ccc56822fdf1"],
+Cell[18565, 574, 317, 9, 23, "Print",ExpressionUUID->"2a2efd3b-3d74-47e1-97d8-585579d652b2"],
+Cell[18885, 585, 295, 8, 23, "Print",ExpressionUUID->"af8a710f-6688-4829-985a-b5205a75d8a7"],
+Cell[19183, 595, 224, 4, 41, "Print",ExpressionUUID->"e4620b38-cef2-47ed-a996-c7376c786537"],
+Cell[19410, 601, 196, 4, 23, "Print",ExpressionUUID->"b774379c-9f12-4f03-a9c0-49fb3ed921e2"],
+Cell[19609, 607, 194, 4, 23, "Print",ExpressionUUID->"08824333-502d-4c40-bb09-3b0aef18cd8b"],
+Cell[19806, 613, 243, 5, 41, "Print",ExpressionUUID->"9a1a03be-636d-4f89-a5c2-15fca29d61af"],
+Cell[20052, 620, 357, 9, 41, "Print",ExpressionUUID->"932b39b0-7182-4ef8-8b24-4928158bbdcc"],
+Cell[20412, 631, 637, 15, 23, "Print",ExpressionUUID->"02b30c83-1c7b-4f7d-9353-8784e9fe0919"],
+Cell[21052, 648, 287, 7, 23, "Print",ExpressionUUID->"4f246cda-2f69-4e9f-bed5-c9a1541b2bb5"],
+Cell[21342, 657, 429, 11, 23, "Print",ExpressionUUID->"a5b4823e-de38-4058-9943-0665759fe3c1"],
+Cell[21774, 670, 317, 9, 23, "Print",ExpressionUUID->"34aef593-9b75-4643-9873-beec03ddbd08"],
+Cell[22094, 681, 287, 7, 23, "Print",ExpressionUUID->"09c6eb8d-b79f-4c52-b80a-70263da7c3c6"],
+Cell[22384, 690, 409, 10, 23, "Print",ExpressionUUID->"e5cd0eda-f5eb-4735-990b-29dd565c34e0"],
+Cell[22796, 702, 315, 9, 23, "Print",ExpressionUUID->"f4769189-44bc-4dc1-9da3-891e688a85aa"],
+Cell[23114, 713, 290, 7, 41, "Print",ExpressionUUID->"3f3205eb-7818-4d89-927e-d445145fd144"],
+Cell[23407, 722, 515, 12, 23, "Print",ExpressionUUID->"1a1d67fc-1f49-4027-9f05-4df23fd2303a"],
+Cell[23925, 736, 535, 13, 23, "Print",ExpressionUUID->"bfec2528-dc77-4f86-9e0e-c27414dd3a8e"],
+Cell[24463, 751, 272, 7, 41, "Print",ExpressionUUID->"8afc9aea-5736-4f41-a61c-0afc98dd253b"],
+Cell[24738, 760, 1863, 50, 50, "Print",ExpressionUUID->"f9434f2c-caaf-4e68-9da4-3f88558b0527"],
+Cell[26604, 812, 357, 9, 41, "Print",ExpressionUUID->"e30642af-0693-49b6-8a5d-c3b43ed526fd"],
+Cell[26964, 823, 621, 15, 23, "Print",ExpressionUUID->"8c347772-6a60-4a94-ad77-46eda389e8b2"],
+Cell[27588, 840, 287, 7, 23, "Print",ExpressionUUID->"2174f42c-1076-4b30-bd09-82ae527be047"],
+Cell[27878, 849, 411, 10, 23, "Print",ExpressionUUID->"612b3ad1-4b23-4129-aae2-a4fd59c15a9f"],
+Cell[28292, 861, 295, 8, 23, "Print",ExpressionUUID->"00000085-6835-421f-8795-6819f037471e"],
+Cell[28590, 871, 287, 7, 23, "Print",ExpressionUUID->"e2246414-5100-4a41-802b-b567f5b0d7c2"],
+Cell[28880, 880, 411, 10, 23, "Print",ExpressionUUID->"05efbff0-e9ce-479b-8988-fa6d5beb2679"],
+Cell[29294, 892, 317, 9, 23, "Print",ExpressionUUID->"6f00e468-f7e4-480a-ac68-a02fa465f01d"],
+Cell[29614, 903, 290, 7, 41, "Print",ExpressionUUID->"e06e019a-3db1-4c6c-bf5e-481a488e1c7f"],
+Cell[29907, 912, 477, 10, 23, "Print",ExpressionUUID->"7c58ce0c-3926-4d26-b6f4-72a6e9903973"],
+Cell[30387, 924, 535, 13, 23, "Print",ExpressionUUID->"b3e5ba64-239f-4dc8-b23a-54bf246aafad"],
+Cell[30925, 939, 274, 7, 41, "Print",ExpressionUUID->"7c5d3ed1-76d8-4f32-8981-8facb863c3ff"],
+Cell[31202, 948, 1811, 48, 50, "Print",ExpressionUUID->"84e3b1b9-4d60-4191-bab1-87d563397466"],
+Cell[33016, 998, 357, 9, 41, "Print",ExpressionUUID->"8fa04278-d918-473b-9ffc-8db4eb99d3ea"],
+Cell[33376, 1009, 623, 15, 23, "Print",ExpressionUUID->"604eb54a-74b5-4245-a1e7-5659ff9f47b3"],
+Cell[34002, 1026, 287, 7, 23, "Print",ExpressionUUID->"3c449b77-46bf-4e71-b2cd-774825720092"],
+Cell[34292, 1035, 409, 10, 23, "Print",ExpressionUUID->"f5d43736-a344-42df-8b34-fa8ce7d48db3"],
+Cell[34704, 1047, 297, 8, 23, "Print",ExpressionUUID->"da1ec9dc-cc46-4c77-8ffa-96962834d301"],
+Cell[35004, 1057, 287, 7, 23, "Print",ExpressionUUID->"59287375-91b3-4e7a-849c-436937fba211"],
+Cell[35294, 1066, 409, 10, 23, "Print",ExpressionUUID->"ceef9cf0-78a2-482a-8b02-30c7c830eb36"],
+Cell[35706, 1078, 295, 8, 23, "Print",ExpressionUUID->"a1b16719-6341-4fb5-9685-b680f77bd303"],
+Cell[36004, 1088, 288, 7, 41, "Print",ExpressionUUID->"77b839f0-0f1a-44fc-bfc1-4caf75cc9d9a"],
+Cell[36295, 1097, 475, 10, 23, "Print",ExpressionUUID->"7e4c06e0-10d9-4167-a236-7ff64edd40f1"],
+Cell[36773, 1109, 515, 12, 23, "Print",ExpressionUUID->"980549ed-764c-497e-b0e3-e5c8d5526d47"],
+Cell[37291, 1123, 272, 7, 41, "Print",ExpressionUUID->"e0c3b8ff-a23e-420f-873e-d78d920218ed"],
+Cell[37566, 1132, 1786, 47, 50, "Print",ExpressionUUID->"0a3d6399-aeb4-4d34-a816-61867cb33423"],
+Cell[39355, 1181, 359, 9, 41, "Print",ExpressionUUID->"190cef99-420b-4b64-8e75-58318781893d"],
+Cell[39717, 1192, 637, 15, 23, "Print",ExpressionUUID->"af6b3362-8437-4cfd-a00b-1c797251bfb8"],
+Cell[40357, 1209, 287, 7, 23, "Print",ExpressionUUID->"57033530-5ccb-48ff-8a90-a9d2d4d92c66"],
+Cell[40647, 1218, 431, 11, 23, "Print",ExpressionUUID->"0eb34ded-5e02-4906-a223-892f9a4485cd"],
+Cell[41081, 1231, 315, 9, 23, "Print",ExpressionUUID->"425092a3-44eb-413d-95ae-69cdbc5419aa"],
+Cell[41399, 1242, 287, 7, 23, "Print",ExpressionUUID->"a1e0c379-2341-4b32-b1f5-98a2d9312e55"],
+Cell[41689, 1251, 409, 10, 23, "Print",ExpressionUUID->"c10ea7c2-6fd4-4223-8699-a96327df2397"],
+Cell[42101, 1263, 297, 8, 23, "Print",ExpressionUUID->"f421fc4c-b79a-449c-b2bb-47caf9bbb263"],
+Cell[42401, 1273, 290, 7, 41, "Print",ExpressionUUID->"9eb662e4-e24e-4808-9a7a-61a229c7c170"],
+Cell[42694, 1282, 517, 12, 23, "Print",ExpressionUUID->"3d2d868f-4570-41da-af2e-a3bcdeed2127"],
+Cell[43214, 1296, 515, 12, 23, "Print",ExpressionUUID->"d5c8a403-6c3c-4796-9dd4-23f7c28f08ed"],
+Cell[43732, 1310, 272, 7, 41, "Print",ExpressionUUID->"2f3e5ff2-86a3-489c-b3ae-b27e6175d739"],
+Cell[44007, 1319, 1836, 49, 50, "Print",ExpressionUUID->"c7c7ab40-86a2-49bb-8da5-0ab074be678d"],
+Cell[45846, 1370, 280, 8, 47, "Print",ExpressionUUID->"13454946-4c00-4a56-b5da-c8ce0ed0fc0f"],
+Cell[46129, 1380, 217, 4, 23, "Print",ExpressionUUID->"38e214f9-fa7d-447c-aa3d-9497df6b45ae"],
+Cell[46349, 1386, 2700, 81, 66, "Print",ExpressionUUID->"cb1f5bb1-cf91-4a7a-9ac2-4d1addcdccc7"],
+Cell[49052, 1469, 271, 7, 41, "Print",ExpressionUUID->"a831cd7e-d67c-40ab-a5a7-f4f642b0889e"],
+Cell[49326, 1478, 20035, 523, 508, "Print",ExpressionUUID->"0806e14d-922d-42a4-bf7f-10fdfeda83be"],
+Cell[69364, 2003, 265, 8, 47, "Print",ExpressionUUID->"8a94aa31-aecd-43f2-9505-9da63070b83a"],
+Cell[69632, 2013, 268, 5, 23, "Print",ExpressionUUID->"2cb69601-c9a0-47d3-aa4f-26e34a219946"],
+Cell[69903, 2020, 282, 5, 23, "Print",ExpressionUUID->"3c776c33-0ca8-4c31-8843-46e6903d35cf"],
+Cell[70188, 2027, 246, 5, 23, "Print",ExpressionUUID->"5e51e93f-d3f5-44c4-bdd7-b10a311f0f0f"],
+Cell[70437, 2034, 287, 5, 23, "Print",ExpressionUUID->"e168c111-5c11-43d2-842a-1cbc9ab35c08"],
+Cell[70727, 2041, 256, 5, 23, "Print",ExpressionUUID->"25824cd0-ff76-45ae-94e6-63aedc52e71f"],
+Cell[70986, 2048, 287, 7, 41, "Print",ExpressionUUID->"57998566-ca66-45de-9d45-b9a299e577a3"],
+Cell[71276, 2057, 388, 12, 23, "Print",ExpressionUUID->"30862997-b060-4cdf-9372-50c7f85e9dc7"],
+Cell[71667, 2071, 365, 11, 23, "Print",ExpressionUUID->"291a950f-d581-4f0c-9533-5b5a8ba9c8b6"],
+Cell[72035, 2084, 365, 11, 23, "Print",ExpressionUUID->"25e17172-3c40-4246-afef-631b2cbdc3d4"],
+Cell[72403, 2097, 390, 12, 23, "Print",ExpressionUUID->"cc502ab8-3443-43c8-bed2-f25fa91601b4"],
+Cell[72796, 2111, 302, 8, 41, "Print",ExpressionUUID->"29fff83e-cfb2-4de5-baaa-bdaa6d0f233f"],
+Cell[73101, 2121, 389, 12, 23, "Print",ExpressionUUID->"3c60d107-2afc-433f-9b7a-6467a78f9b32"],
+Cell[73493, 2135, 366, 11, 23, "Print",ExpressionUUID->"06d067f1-b38f-4c1b-a39d-aa2ed9c55ff4"],
+Cell[73862, 2148, 343, 10, 23, "Print",ExpressionUUID->"28aa96b2-b772-4ca8-bca1-b52072998f9d"],
+Cell[74208, 2160, 368, 11, 23, "Print",ExpressionUUID->"9602ec84-e86e-4751-95d1-36b856d937cb"],
+Cell[74579, 2173, 280, 7, 41, "Print",ExpressionUUID->"ccc73095-e6c0-494c-b14d-3d7799766a21"],
+Cell[74862, 2182, 271, 5, 23, "Print",ExpressionUUID->"fd3edfbe-706b-42f4-b43e-64b9e9f1bfd8"],
+Cell[75136, 2189, 529, 12, 23, "Print",ExpressionUUID->"84fb3d9e-d95f-456b-b376-1b3f6a27fe4d"],
+Cell[75668, 2203, 321, 9, 53, "Print",ExpressionUUID->"cac63c9a-8600-4628-a1ba-bda85a0fedf8"],
+Cell[75992, 2214, 299, 8, 47, "Print",ExpressionUUID->"1cb4f6f1-b614-4307-a2cb-28dd3a387b38"],
+Cell[76294, 2224, 190, 4, 23, "Print",ExpressionUUID->"99ba36a8-46c6-432d-b6cf-c5f5ccb289e2"],
+Cell[76487, 2230, 2746, 83, 66, "Print",ExpressionUUID->"ac21849f-4e69-4a44-a7e7-646a2b29dc31"],
+Cell[79236, 2315, 265, 7, 23, "Print",ExpressionUUID->"7029778e-3e33-43e9-bc16-6890ff999ff7"],
+Cell[79504, 2324, 560, 17, 23, "Print",ExpressionUUID->"797b1c3f-55b7-4d1a-a0b6-6de0957927cb"],
+Cell[80067, 2343, 557, 17, 23, "Print",ExpressionUUID->"5e8b22ea-6ad7-4843-81ed-32d7add52ace"],
+Cell[80627, 2362, 290, 8, 47, "Print",ExpressionUUID->"559b1865-85b3-4f16-ad77-83dce0a4606e"],
+Cell[80920, 2372, 216, 4, 23, "Print",ExpressionUUID->"12729d84-d781-4cc2-ab5f-7f9e5c4fa413"],
+Cell[81139, 2378, 2940, 81, 66, "Print",ExpressionUUID->"3a002e71-eb6f-4fcb-a804-938c00b44622"],
+Cell[84082, 2461, 265, 7, 23, "Print",ExpressionUUID->"8b8bf718-4a0f-4cae-bdfd-b2fd049c638c"],
+Cell[84350, 2470, 596, 17, 23, "Print",ExpressionUUID->"12a1fadd-8b0a-4487-a7c4-e4388b9eae06"],
+Cell[84949, 2489, 594, 17, 23, "Print",ExpressionUUID->"d4707b00-ad6e-41b6-88e9-07c14be88f6a"],
+Cell[85546, 2508, 325, 9, 53, "Print",ExpressionUUID->"9faab1d4-2d76-4d07-adb6-cb588989ab0c"],
+Cell[85874, 2519, 8826, 220, 673, "Print",ExpressionUUID->"3d650d2e-ebe3-4701-96c0-83dc9331867b"],
+Cell[94703, 2741, 265, 8, 53, "Print",ExpressionUUID->"fb5be105-a2f7-4346-b3d9-c0ed96e39fc2"],
+Cell[94971, 2751, 788, 21, 23, "Print",ExpressionUUID->"24ff5d85-64cd-464a-a522-fd9e4f0a4513"],
+Cell[95762, 2774, 1010, 26, 23, "Print",ExpressionUUID->"4ff6ebc0-ca8a-406a-8137-22d3a30c55f4"],
+Cell[96775, 2802, 296, 8, 53, "Print",ExpressionUUID->"6b5ee4b5-7295-4caa-b72e-252d550c386d"],
+Cell[97074, 2812, 188, 4, 23, "Print",ExpressionUUID->"1484243a-33fe-42ab-8be6-1998c1cbee71"]
+}, Open  ]],
+Cell[97277, 2819, 1040, 36, 91, "Output",ExpressionUUID->"1c565b27-a914-4ec2-8647-3ac1b7dde641"]
+}, Open  ]]
+}
+]
+*)
+
