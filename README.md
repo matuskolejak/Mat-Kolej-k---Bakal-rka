@@ -36,7 +36,7 @@ Podobné funkcie existujú aj pre ostatné tvary (napr. `StvorecTrojitaTransform
 ## Bakalárska práca
 
 Tento softvér bol vytvorený ako súčasť bakalárskej práce na Fakulte informatiky a informačných technológií STU v Bratislave.
-* [Odkaz na text práce v CRZP alebo univerzitnom repozitári - ak existuje, vlož sem]
+
 
 ## Autor
 
